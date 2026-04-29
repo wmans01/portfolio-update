@@ -1,0 +1,76 @@
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #f3efe0;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--mono);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 750;
+  letter-spacing: -1.68px;
+  margin: 16px 0;
+}
+h2 {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+}
+
+h5 {
+  font-size: 12px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 2px 2px 2px;
+  text-align: right;
+}
+
+a {
+  color: #0F8B8D;
+  text-decoration: none;
+}
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+}
