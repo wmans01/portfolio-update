@@ -98,6 +98,7 @@ const renderDoublePendulumPage = root => {
       <div id="dpm-header">
         <h1>Double Pendulum Simulation</h1>
       </div>
+      <div id="dpm-mobile-warning">This program is not designed for mobile screens.</div>
       <div id="dpm-controls">
         <div>
           <label for="theta1">θ₁ (degrees)</label>
