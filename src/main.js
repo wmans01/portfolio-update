@@ -1,6 +1,17 @@
 import './style.css'
+import { renderDoublePendulumPage } from './dpm.js'
 
-document.querySelector('#app').innerHTML = `
+const root = document.querySelector('#app')
+const path = window.location.pathname.replace(/\/+$/, '')
+
+if (path === '/dpm') {
+  renderDoublePendulumPage(root)
+} else {
+  renderHome(root)
+}
+
+function renderHome(root) {
+  root.innerHTML = `
 <section id="center">
   <h1 id="bold">Jeremy Wang</h1>
   <h2>Love for all things hardware</h2>
@@ -12,3 +23,5 @@ document.querySelector('#app').innerHTML = `
   Updated: 4/29/2026
 </h5>
 `
+}
+
