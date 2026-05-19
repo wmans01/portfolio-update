@@ -110,11 +110,11 @@ const renderDoublePendulumPage = root => {
         </div>
         <div>
           <label for="omega1">ω₁ (deg/s)</label>
-          <input id="omega1" type="number" step="0.5" min="-360" max="360" value="0" />
+          <input id="omega1" type="number" step="0.5" min="-3600" max="3600" value="0" />
         </div>
         <div>
           <label for="omega2">ω₂ (deg/s)</label>
-          <input id="omega2" type="number" step="0.5" min="-360" max="360" value="0" />
+          <input id="omega2" type="number" step="0.5" min="-3600" max="3600" value="0" />
         </div>
         <div>
           <button id="start-button" type="button">Start</button>
@@ -154,8 +154,8 @@ const renderDoublePendulumPage = root => {
   const applyInputs = ({ resetTime = false } = {}) => {
     state.t1 = degToRad(sanitizeInputValue(controls.theta1, -180, 180))
     state.t2 = degToRad(sanitizeInputValue(controls.theta2, -180, 180))
-    state.w1 = degToRad(sanitizeInputValue(controls.omega1, -360, 360))
-    state.w2 = degToRad(sanitizeInputValue(controls.omega2, -360, 360))
+    state.w1 = degToRad(sanitizeInputValue(controls.omega1, -3600, 3600))
+    state.w2 = degToRad(sanitizeInputValue(controls.omega2, -3600, 3600))
 
     if (resetTime) {
       state.time = 0
