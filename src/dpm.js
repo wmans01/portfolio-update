@@ -28,6 +28,7 @@ const getDerivatives = ({ t1, t2, w1, w2 }) => {
   const delta = t1 - t2
   const denom1 = (2 * m1 + m2 - m2 * Math.cos(2 * delta))
   const denom2 = (2 * m1 + m2 - m2 * Math.cos(2 * delta))
+  //denoms are same because simple pendulum
 
   const a1 = (
     -g * (2 * m1 + m2) * Math.sin(t1)
@@ -215,6 +216,7 @@ const renderDoublePendulumPage = root => {
     ctx.fillStyle = '#f8f2e8'
     ctx.fillRect(0, 0, width, height)
 
+    // Trail effect (plotting path of 2nd bob in xy plane)
     if (trail.length > 1) {
       ctx.strokeStyle = 'rgba(15, 139, 141, 0.35)'
       ctx.lineWidth = 2

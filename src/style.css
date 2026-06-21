@@ -153,3 +153,120 @@ a {
   }
 }
 
+#projects-trigger {
+  position: fixed;
+  bottom: -84px;
+  left: -80px;
+  z-index: 100;
+  line-height: 0;
+  overflow: visible;
+  transform-origin: 40px calc(100% - 100px);
+  transform: translateX(-20px) rotate(-80deg);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#projects-trigger.active {
+  transform: translateX(0) rotate(-70deg);
+}
+
+#projects-trigger img {
+  display: block;
+  width: auto;
+  height: min(44vh, 260px);
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+#projects-hitarea {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  cursor: pointer;
+  background: transparent;
+}
+
+#projects-label {
+  position: absolute;
+  right: -9px;
+  bottom: 8px;
+  width: auto;
+  text-align: left;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0F8B8D;
+  opacity: 0;
+  transform-origin: bottom right;
+  transform: translateX(-4px) rotate(90deg);
+  transition: opacity 0.4s ease 0.1s, transform 0.4s ease 0.1s;
+  pointer-events: none;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+#projects-trigger.active #projects-label {
+  opacity: 1;
+  transform: translateX(0) rotate(90deg);
+}
+
+@media (max-width: 720px) {
+  #projects-trigger {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  #projects-trigger {
+    display: none;
+  }
+}
+
+/* Home trigger used on projects page */
+#home-trigger {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 150;
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+  pointer-events: auto;
+}
+
+#home-trigger img {
+  height: 88px;
+  width: auto;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+.home-label {
+  position: absolute;
+  left: calc(100% + 10px);
+  bottom: 8px;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0F8B8D;
+  opacity: 0;
+  transform: translateX(-115px) translateY(-60px) rotate(34.5deg);
+  transition: opacity 0.32s ease, transform 0.32s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+#home-trigger:hover .home-label,
+#home-trigger:focus .home-label {
+  opacity: 1;
+  transform: translateX(-100px) translateY(-80px) rotate(34.5deg);
+}
+
+@media (max-width: 720px) {
+  #home-trigger { display: none; }
+}
+
