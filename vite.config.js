@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         dpm: resolve(__dirname, 'dpm/index.html'),
+        projects: resolve(__dirname, 'projects/index.html'),
       },
     },
   },
