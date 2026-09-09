@@ -13,7 +13,7 @@
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -217,12 +217,6 @@ a {
   }
 }
 
-@media (max-width: 720px) {
-  #projects-trigger {
-    display: none;
-  }
-}
-
 /* Home trigger used on projects page */
 #home-trigger {
   position: fixed;
@@ -233,6 +227,8 @@ a {
   line-height: 0;
   text-decoration: none;
   pointer-events: auto;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 #home-trigger img {
@@ -269,4 +265,529 @@ a {
 @media (max-width: 720px) {
   #home-trigger { display: none; }
 }
+
+/* ==========================================================================
+   Projects Page Styles (Minimalist Workshop Theme)
+   ========================================================================== */
+
+#projects-page {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.projects-hero {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.mobile-home-link {
+  display: none;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: #0F8B8D;
+  margin-top: 8px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .mobile-home-link {
+    display: inline-block;
+  }
+}
+
+.project-group {
+  margin-bottom: 56px;
+}
+
+.section-title-wrap {
+  margin-bottom: 22px;
+}
+
+.section-title {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0 0 8px 0;
+  letter-spacing: -0.4px;
+}
+
+.section-rule {
+  height: 1px;
+  background: rgba(107, 99, 117, 0.22);
+  width: 100%;
+}
+
+/* 1. What I'm currently working on */
+.current-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.current-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.current-bullet {
+  font-family: var(--mono);
+  color: #0F8B8D;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.current-body {
+  flex: 1;
+}
+
+.current-headline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.current-title {
+  font-weight: 700;
+  color: var(--text-h);
+  font-size: 17px;
+  font-family: var(--mono);
+}
+
+.current-sub {
+  font-size: 14px;
+  color: var(--text);
+  font-style: italic;
+}
+
+.current-desc {
+  margin: 4px 0 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+/* 2. Select Work */
+.select-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.select-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 280px;
+}
+
+.select-card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.select-card-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+  letter-spacing: -0.4px;
+}
+
+.select-card-sub {
+  font-size: 13px;
+  color: #0F8B8D;
+  font-family: var(--mono);
+  letter-spacing: 0.2px;
+  margin-top: 2px;
+}
+
+.project-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.project-links-wrap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-inline-link {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: #0F8B8D;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s;
+}
+
+.project-inline-link:hover {
+  opacity: 0.8;
+}
+
+.select-media-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.media-thumb-box {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(8, 6, 13, 0.16);
+  background: #ece7d5;
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  flex: 1 1 240px;
+  max-width: 360px;
+  box-sizing: border-box;
+}
+
+.media-thumb-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.media-thumb-box:hover img {
+  transform: scale(1.025);
+}
+
+.media-zoom-hint {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 11px;
+  background: rgba(8, 6, 13, 0.75);
+  color: #f3efe0;
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-family: var(--mono);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.media-thumb-box:hover .media-zoom-hint {
+  opacity: 1;
+}
+
+.media-video-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(8, 6, 13, 0.16);
+  background: #18151f;
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 240px;
+  max-width: 360px;
+  height: 200px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.media-video-card:hover {
+  border-color: #0F8B8D;
+  transform: translateY(-2px);
+}
+
+.video-card-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.72;
+  transition: opacity 0.25s, transform 0.25s ease;
+}
+
+.media-video-card:hover .video-card-poster {
+  opacity: 0.88;
+  transform: scale(1.025);
+}
+
+.video-card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: radial-gradient(circle, rgba(8, 6, 13, 0.35) 0%, rgba(8, 6, 13, 0.72) 100%);
+  color: #f3efe0;
+  font-family: var(--mono);
+}
+
+.video-card-overlay.no-poster {
+  background: linear-gradient(135deg, #201c29 0%, #110e17 100%);
+}
+
+.video-play-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(15, 139, 141, 0.92);
+  color: #f3efe0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding-left: 3px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.media-video-card:hover .video-play-btn {
+  background: #0F8B8D;
+  transform: scale(1.08);
+}
+
+.video-card-title {
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  color: #f3efe0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
+}
+
+/* 3. Others */
+.others-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.other-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px dashed rgba(107, 99, 117, 0.2);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 60px;
+}
+
+.other-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.other-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.other-header-line {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.other-title {
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+}
+
+.other-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.other-media-strip {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.other-thumb {
+  padding: 0;
+  border: 1px solid rgba(8, 6, 13, 0.18);
+  border-radius: 3px;
+  background: #ece7d5;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.other-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.other-thumb:hover {
+  border-color: #0F8B8D;
+  transform: scale(1.05);
+}
+
+.other-thumb-video {
+  width: auto;
+  height: 32px;
+  padding: 4px 10px;
+  background: rgba(15, 139, 141, 0.08);
+  border: 1px solid rgba(15, 139, 141, 0.35);
+  border-radius: 3px;
+  color: #0F8B8D;
+  font-family: var(--mono);
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.other-thumb-video:hover {
+  background: #0F8B8D;
+  color: #f3efe0;
+}
+
+.video-play-icon {
+  font-size: 10px;
+}
+
+/* Lightbox Modal */
+.lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(8, 6, 13, 0.88);
+  backdrop-filter: blur(4px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.lightbox-backdrop.active {
+  display: flex;
+  animation: lightboxFadeIn 0.2s ease;
+}
+
+@keyframes lightboxFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lightbox-dialog {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -42px;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: #f3efe0;
+  font-size: 26px;
+  cursor: pointer;
+  font-family: var(--mono);
+  padding: 4px 8px;
+  opacity: 0.8;
+  transition: opacity 0.2s, color 0.2s;
+  line-height: 1;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
+  color: #0F8B8D;
+}
+
+.lightbox-media-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.lightbox-media-vid {
+  max-width: 90vw;
+  max-height: 85vh;
+  border-radius: 4px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+/* Footer */
+.projects-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(107, 99, 117, 0.22);
+  text-align: center;
+  font-size: 13px;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .other-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .other-media-strip {
+    align-self: flex-start;
+  }
+
+  .media-thumb-box,
+  .media-video-box {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
 
