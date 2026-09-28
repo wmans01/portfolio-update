@@ -1,0 +1,10 @@
+{
+  "name": "ltplayer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "index": "node scripts/index-music.mjs",
+    "start": "node scripts/index-music.mjs && node scripts/serve.mjs"
+  }
+}

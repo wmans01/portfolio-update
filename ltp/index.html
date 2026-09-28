@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <base href="/ltp/" />
+  <meta name="theme-color" content="#f2efe0" />
+  <meta name="description" content="A small, personal music player for your own files." />
+  <title>ltplayer</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body data-theme="jeremp0" data-visuals="off">
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="m5 5 9 7-9 7V5Zm11 0h3v14h-3z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="m19 5-9 7 9 7V5ZM5 5h3v14H5z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M4 7h2c5 0 7 10 12 10h2m-3-3 3 3-3 3M4 17h2c2 0 3-1.4 4.2-3M14 9c1-1.2 2-2 4-2h2m-3-3 3 3-3 3"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M17 3 21 7l-4 4M3 11V9a2 2 0 0 1 2-2h16M7 21l-4-4 4-4m14 0v2a2 2 0 0 1-2 2H3"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4Zm12 0a5 5 0 0 1 0 6m2-9a9 9 0 0 1 0 12"/></symbol>
+    <symbol id="i-muted" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4Zm12 0 5 6m0-6-5 6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+    <symbol id="i-queue" viewBox="0 0 24 24"><path d="M4 6h12M4 12h12M4 18h8m5-2 4 3-4 3v-6Z"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><path d="m10 2-.6 2-2 1-2-.5L3.5 8l1.4 1.5v2l-1.4 1.5 1.9 3.5 2-.5 2 1L10 19h4l.6-2 2-1 2 .5 1.9-3.5-1.4-1.5v-2L20.5 8l-1.9-3.5-2 .5-2-1L14 2h-4Z" transform="translate(0 1.5)"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="19" cy="12" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m5 15 7-7 7 7"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m5 9 7 7 7-7"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13M9 18c0 1.5-1.6 3-3.5 3S2 20 2 18.5 3.6 16 5.5 16 9 16.5 9 18Zm11-2c0 1.5-1.6 3-3.5 3S13 18 13 16.5s1.6-2.5 3.5-2.5 3.5.5 3.5 2Z"/></symbol>
+  </svg>
+  <div class="app-shell">
+    <header class="topbar">
+      <nav class="top-nav" aria-label="Music menus">
+        <button class="nav-button" data-open-panel="library" aria-label="Open library" aria-expanded="false" title="Library"><svg><use href="#i-list"/></svg></button>
+        <button class="nav-button" data-open-panel="uploads" aria-label="Open uploads" aria-expanded="false" title="Uploads"><svg><use href="#i-upload"/></svg></button>
+        <button class="nav-button" data-open-panel="queue" aria-label="Open queue" aria-expanded="false" title="Queue"><svg><use href="#i-queue"/></svg></button>
+      </nav>
+      <div class="settings-anchor">
+        <button class="icon-button settings-button" id="settings-button" aria-label="Settings" aria-expanded="false" aria-controls="settings-menu" title="Settings"><svg><use href="#i-settings"/></svg></button>
+        <div class="settings-menu" id="settings-menu" hidden>
+          <h2>Settings</h2>
+          <label class="settings-field" for="theme-select"><span>Theme</span><select id="theme-select"><option value="jeremp0">Jeremp0</option><option value="gruvbox">Gruvbox</option><option value="gruvbox-light">Gruvbox Light</option></select></label>
+          <label class="settings-field switch-field" for="visual-toggle"><span>Visuals</span><input id="visual-toggle" type="checkbox" role="switch"/><span class="switch-track" aria-hidden="true"></span></label>
+        </div>
+      </div>
+    </header>
+    <main class="main-stage">
+      <section class="player" aria-label="Music player">
+        <div class="visual-stage" id="visual-stage" aria-hidden="true"><div class="visual-glow"></div><div class="vinyl" id="vinyl"><div class="vinyl-label"><i></i></div></div><canvas id="visualizer"></canvas></div>
+        <div class="track-heading"><span class="now-label">NOW PLAYING</span><h1 id="now-title">No track selected</h1><p id="now-artist">Open Library or Uploads to start</p></div>
+        <div class="progress-block"><input id="seek" type="range" min="0" max="1000" value="0" aria-label="Seek position"/><div class="time-labels"><span id="elapsed">0:00</span><span id="duration">0:00</span></div></div>
+        <div class="transport"><button class="icon-button transport-side" id="shuffle" aria-label="Shuffle" aria-pressed="false" title="Shuffle"><svg><use href="#i-shuffle"/></svg></button><button class="icon-button transport-skip" id="previous" aria-label="Previous track" title="Previous track"><svg><use href="#i-prev"/></svg></button><button class="play-button" id="play-pause" aria-label="Play" title="Play"><svg><use href="#i-play"/></svg></button><button class="icon-button transport-skip" id="next" aria-label="Next track" title="Next track"><svg><use href="#i-next"/></svg></button><button class="icon-button transport-side" id="repeat" aria-label="Repeat off" title="Repeat off"><svg><use href="#i-repeat"/></svg><span id="repeat-one">1</span></button></div>
+        <div class="player-extras"><label class="speed-control"><span>Speed</span><select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><div class="volume-control"><button class="icon-button" id="mute" aria-label="Mute" title="Mute"><svg><use href="#i-volume"/></svg></button><input id="volume" type="range" min="0" max="100" value="80" aria-label="Volume"/></div></div>
+      </section>
+    </main>
+  </div>
+  <button class="drawer-backdrop" id="drawer-backdrop" aria-label="Close menu" hidden></button>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true" inert>
+    <div class="drawer-header"><div><h2 id="drawer-title">Library</h2><span id="drawer-count"></span></div><button class="icon-button" id="close-drawer" aria-label="Close menu"><svg><use href="#i-close"/></svg></button></div>
+    <div class="drawer-tools" id="drawer-tools"></div>
+    <div class="drawer-list" id="track-list"></div>
+  </aside>
+  <input id="file-input" type="file" accept="audio/mpeg,audio/mp3,audio/mp4,video/mp4,.mp3,.mp4" multiple hidden />
+  <dialog id="playlist-dialog" class="app-dialog"><form method="dialog" id="playlist-form"><h2 id="playlist-dialog-title">New playlist</h2><label for="playlist-name">Playlist name</label><input id="playlist-name" maxlength="60" required placeholder="Playlist name"/><div class="dialog-actions"><button type="button" class="subtle-button" data-close-dialog>Cancel</button><button class="primary-button" value="save">Save</button></div></form></dialog>
+  <dialog id="track-dialog" class="app-dialog"><h2 id="track-dialog-title">Track options</h2><div id="track-options" class="dialog-options"></div><div class="dialog-actions"><button type="button" class="subtle-button" data-close-dialog>Close</button></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <audio id="audio" preload="metadata"></audio>
+</body>
+</html>

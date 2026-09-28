@@ -6,7 +6,9 @@ import { renderProjectsPage } from './projects.js'
 const root = document.querySelector('#app')
 const path = window.location.pathname.replace(/\/+$/, '')
 
-if (path === '/dpm') {
+if (path === '/ltp') {
+  window.location.replace(`/ltp/${window.location.search}${window.location.hash}`)
+} else if (path === '/dpm') {
   renderDoublePendulumPage(root)
 } else if (path === '/projects') {
   renderProjectsPage(root)

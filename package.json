@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "npm run index:music && vite",
+    "build": "npm run index:music && vite build && node scripts/copy-player-assets.mjs",
+    "index:music": "node ltp/scripts/index-music.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {
