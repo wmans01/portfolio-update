@@ -6,7 +6,7 @@ const audio = $('#audio');
 const els = {
   drawer: $('#drawer'), backdrop: $('#drawer-backdrop'), list: $('#track-list'),
   tools: $('#drawer-tools'), search: null, settings: $('#settings-menu'),
-  theme: $('#theme-select'), visuals: $('#visual-toggle'), seek: $('#seek'),
+  theme: $('#theme-select'), seek: $('#seek'),
   speed: $('#speed'), volume: $('#volume'), toast: $('#toast'), canvas: $('#visualizer')
 };
 const validThemes = new Set(['jeremp0', 'gruvbox', 'gruvbox-light']);
@@ -14,6 +14,7 @@ const validSpeeds = new Set([0.5, 0.75, 1, 1.25, 1.5, 2]);
 const tracks = new Map();
 const objectUrls = new Map();
 let builtInIds = [];
+let builtInPlaylists = [];
 let uploadIds = [];
 let playlistAction = null;
 let pendingPlaylistTrack = null;
@@ -23,7 +24,10 @@ let toastTimer;
 let audioContext;
 let analyser;
 let animationFrame;
+let visualizerColor;
 let dragDepth = 0;
+let playbackToken = 0;
+const failedIds = new Set();
 
 function readSettings() {
   try { return JSON.parse(localStorage.getItem('ltplayer-settings') || '{}') || {}; }
@@ -32,7 +36,6 @@ function readSettings() {
 const saved = readSettings();
 const state = {
   theme: validThemes.has(saved.theme) ? saved.theme : 'jeremp0',
-  visuals: Boolean(saved.visuals),
   volume: Number.isFinite(saved.volume) ? Math.min(1, Math.max(0, saved.volume)) : 0.8,
   speed: validSpeeds.has(saved.speed) ? saved.speed : 1,
   shuffle: Boolean(saved.shuffle),
@@ -45,7 +48,7 @@ const state = {
 function saveSettings() {
   try {
     localStorage.setItem('ltplayer-settings', JSON.stringify({
-      theme: state.theme, visuals: state.visuals, volume: state.volume,
+      theme: state.theme, volume: state.volume,
       speed: state.speed, shuffle: state.shuffle, repeat: state.repeat,
       playlists: state.playlists
     }));
@@ -81,6 +84,9 @@ function setRangeFill(input, percent) {
   input.style.setProperty('--fill', Math.min(100, Math.max(0, percent)) + '%');
 }
 function playlistForSelection() {
+  return builtInPlaylists.find(playlist => playlist.id === state.collection) || editablePlaylistForSelection();
+}
+function editablePlaylistForSelection() {
   return state.playlists.find(playlist => playlist.id === state.collection);
 }
 function entriesForPanel() {
@@ -111,15 +117,16 @@ function entriesForPanel() {
 function renderDrawerTools() {
   if (!state.panel) return;
   const playlist = state.panel === 'library' ? playlistForSelection() : null;
+  const editablePlaylist = state.panel === 'library' ? editablePlaylistForSelection() : null;
   if (state.panel === 'library') {
-    const options = '<option value="all">All tracks</option>' + state.playlists.map(p =>
+    const options = '<option value="all">All tracks</option>' + [...builtInPlaylists, ...state.playlists].map(p =>
       '<option value="' + escapeHTML(p.id) + '">' + escapeHTML(p.name) + '</option>'
     ).join('');
     els.tools.innerHTML =
       '<div class="toolbar-line"><select class="collection-select" id="collection-select" aria-label="Library collection">' + options + '</select>' +
       '<button class="icon-button" data-action="new-playlist" aria-label="New playlist" title="New playlist">' + icon('plus') + '</button>' +
       '<button class="subtle-button" data-action="play-all">Play all</button></div>' +
-      (playlist ? '<div class="toolbar-line"><button class="subtle-button" data-action="rename-playlist">Rename playlist</button><button class="subtle-button" data-action="delete-playlist">Delete playlist</button></div>' : '') +
+      (editablePlaylist ? '<div class="toolbar-line"><button class="subtle-button" data-action="rename-playlist">Rename playlist</button><button class="subtle-button" data-action="delete-playlist">Delete playlist</button></div>' : '') +
       '<div class="toolbar-line"><label class="search-box">' + icon('search') + '<input id="drawer-search" type="search" placeholder="Search tracks" aria-label="Search tracks"/></label>' +
       (playlist ? '' : '<select class="sort-select" id="sort-select" aria-label="Sort tracks"><option value="title">Title</option><option value="artist">Artist</option><option value="recent">Recent</option></select>') + '</div>';
     $('#collection-select').value = state.collection;
@@ -246,25 +253,47 @@ function updateMediaSession(item) {
   navigator.mediaSession.metadata = new MediaMetadata({ title: item.title, artist: item.artist, album: item.album });
   navigator.mediaSession.playbackState = 'playing';
 }
-async function startTrack(id) {
+function skipUnplayable(id, token) {
+  if (token !== playbackToken || state.currentId !== id || failedIds.has(id)) return;
+  failedIds.add(id);
+  toast('Skipping a file that could not be played.');
+  queueMicrotask(() => {
+    if (token !== playbackToken || state.currentId !== id) return;
+    advance(false, true);
+  });
+}
+async function playCurrent() {
+  const id = state.currentId;
+  const token = playbackToken;
+  enableAudioGraph();
+  try { await audio.play(); }
+  catch (error) {
+    if (token !== playbackToken || state.currentId !== id) return;
+    if (error?.name === 'NotAllowedError') toast('Press play to start listening.');
+    else if (error?.name !== 'AbortError') skipUnplayable(id, token);
+  }
+}
+function startTrack(id) {
   const item = track(id);
   if (!item) return;
   state.currentId = id;
-  audio.src = sourceFor(item);
-  audio.playbackRate = state.speed;
-  audio.load();
+  const token = ++playbackToken;
+  try {
+    audio.src = sourceFor(item);
+    audio.playbackRate = state.speed;
+    audio.load();
+  } catch {
+    skipUnplayable(id, token);
+    return;
+  }
   updateMediaSession(item);
   renderPlayback();
   renderDrawerList();
-  try {
-    if (state.visuals) await enableAudioGraph();
-    await audio.play();
-  } catch (error) {
-    toast(error?.name === 'NotAllowedError' ? 'Press play to start listening.' : 'Could not play this file. Check its audio format.');
-  }
+  playCurrent();
 }
 function playFromList(id, list) {
   const index = list.indexOf(id);
+  failedIds.clear();
   state.context = [...list];
   state.queue = state.shuffle
     ? shuffled(list.filter((other, position) => position !== index))
@@ -281,37 +310,47 @@ function togglePlayback() {
     return;
   }
   if (audio.paused) {
-    if (state.visuals) enableAudioGraph();
-    audio.play().catch(() => toast('This track could not be played.'));
+    playCurrent();
   } else audio.pause();
 }
-function advance(natural = false) {
+function advance(natural = false, fromError = false) {
   if (natural && state.repeat === 'one' && state.currentId) {
     audio.currentTime = 0;
-    audio.play().catch(() => {});
+    playCurrent();
     return;
   }
   let next = state.queue.shift();
-  while (next && !tracks.has(next)) next = state.queue.shift();
+  while (next && (!tracks.has(next) || failedIds.has(next))) next = state.queue.shift();
   if (!next && state.repeat === 'all' && state.context.length) {
     state.queue = state.shuffle
-      ? shuffled(state.context.filter(id => tracks.has(id)))
-      : state.context.filter(id => tracks.has(id));
+      ? shuffled(state.context.filter(id => tracks.has(id) && !failedIds.has(id)))
+      : state.context.filter(id => tracks.has(id) && !failedIds.has(id));
     next = state.queue.shift();
   }
   if (!next) {
-    if (natural) audio.pause();
+    if (fromError) {
+      playbackToken++;
+      state.currentId = null;
+      state.queue = [];
+      state.context = [];
+      state.history = [];
+      audio.pause();
+      audio.removeAttribute('src');
+      audio.load();
+      toast('No playable tracks remain in this queue.');
+    } else if (natural) audio.pause();
     else toast('End of queue.');
     renderAll();
     return;
   }
-  if (state.currentId) state.history.push(state.currentId);
+  if (state.currentId && !failedIds.has(state.currentId)) state.history.push(state.currentId);
   startTrack(next);
 }
 function previous() {
   if (audio.currentTime > 3) { audio.currentTime = 0; return; }
-  const id = state.history.pop();
-  if (id && tracks.has(id)) {
+  let id = state.history.pop();
+  while (id && (!tracks.has(id) || failedIds.has(id))) id = state.history.pop();
+  if (id) {
     if (state.currentId) state.queue.unshift(state.currentId);
     startTrack(id);
   } else if (state.currentId) audio.currentTime = 0;
@@ -329,7 +368,7 @@ function openTrackMenu(id) {
   if (!item) return;
   menuTrackId = id;
   $('#track-dialog-title').textContent = item.title;
-  const playlist = state.panel === 'library' ? playlistForSelection() : null;
+  const playlist = state.panel === 'library' ? editablePlaylistForSelection() : null;
   const options = [
     '<button class="dialog-option" data-menu-action="queue">Add to queue <span>→</span></button>',
     ...state.playlists.map(p =>
@@ -373,7 +412,7 @@ async function handleMenuAction(button) {
       saveSettings();
     }
   } else if (action === 'remove-playlist' || action === 'playlist-up' || action === 'playlist-down') {
-    const playlist = playlistForSelection();
+    const playlist = editablePlaylistForSelection();
     if (playlist) {
       const from = playlist.trackIds.indexOf(id);
       if (action === 'remove-playlist') {
@@ -436,12 +475,11 @@ async function uploadFiles(files) {
 }
 function applyAppearance() {
   document.body.dataset.theme = state.theme;
-  document.body.dataset.visuals = state.visuals ? 'on' : 'off';
   els.theme.value = state.theme;
-  els.visuals.checked = state.visuals;
   $('meta[name="theme-color"]').content =
     state.theme === 'gruvbox' ? '#1d2021' : state.theme === 'gruvbox-light' ? '#f9f5d7' : '#f2efe0';
-  if (state.visuals && !audio.paused) { enableAudioGraph(); animateVisualizer(); }
+  visualizerColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
+  if (!audio.paused) { enableAudioGraph(); animateVisualizer(); }
   else stopVisualizer();
 }
 async function enableAudioGraph() {
@@ -464,32 +502,37 @@ async function enableAudioGraph() {
 function stopVisualizer() {
   if (animationFrame) cancelAnimationFrame(animationFrame);
   animationFrame = undefined;
-  const context = els.canvas.getContext('2d');
-  if (context) context.clearRect(0, 0, els.canvas.width, els.canvas.height);
+  drawVisualizer();
 }
-function animateVisualizer() {
-  if (animationFrame || !state.visuals || audio.paused || document.hidden || !analyser ||
-      matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+function drawVisualizer(frequencies) {
   const canvas = els.canvas;
   const context = canvas.getContext('2d');
+  if (!context) return;
+  const ratio = Math.min(window.devicePixelRatio || 1, 2);
+  const width = Math.max(1, Math.round(canvas.clientWidth * ratio));
+  const height = Math.max(1, Math.round(canvas.clientHeight * ratio));
+  if (canvas.width !== width || canvas.height !== height) { canvas.width = width; canvas.height = height; }
+  context.clearRect(0, 0, width, height);
+  context.fillStyle = visualizerColor;
+  const bars = 38;
+  const gap = 3 * ratio;
+  const barWidth = (width - gap * (bars - 1)) / bars;
+  for (let index = 0; index < bars; index++) {
+    const magnitude = frequencies
+      ? frequencies[Math.min(frequencies.length - 1, Math.floor(index * frequencies.length / bars))] / 255
+      : 0;
+    const barHeight = Math.max(3 * ratio, Math.pow(magnitude, 1.4) * height);
+    context.fillRect(index * (barWidth + gap), height - barHeight, barWidth, barHeight);
+  }
+}
+function animateVisualizer() {
+  if (animationFrame || audio.paused || document.hidden || !analyser ||
+      matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const frequencies = new Uint8Array(analyser.frequencyBinCount);
   const draw = () => {
-    if (!state.visuals || audio.paused || document.hidden) { stopVisualizer(); return; }
-    const ratio = Math.min(window.devicePixelRatio || 1, 2);
-    const width = Math.max(1, Math.round(canvas.clientWidth * ratio));
-    const height = Math.max(1, Math.round(canvas.clientHeight * ratio));
-    if (canvas.width !== width || canvas.height !== height) { canvas.width = width; canvas.height = height; }
-    context.clearRect(0, 0, width, height);
+    if (audio.paused || document.hidden) { stopVisualizer(); return; }
     analyser.getByteFrequencyData(frequencies);
-    context.fillStyle = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-    const bars = 38;
-    const gap = 3 * ratio;
-    const barWidth = (width - gap * (bars - 1)) / bars;
-    for (let index = 0; index < bars; index++) {
-      const magnitude = frequencies[Math.min(frequencies.length - 1, Math.floor(index * frequencies.length / bars))] / 255;
-      const barHeight = Math.max(3 * ratio, Math.pow(magnitude, 1.4) * height);
-      context.fillRect(index * (barWidth + gap), height - barHeight, barWidth, barHeight);
-    }
+    drawVisualizer(frequencies);
     animationFrame = requestAnimationFrame(draw);
   };
   animationFrame = requestAnimationFrame(draw);
@@ -543,9 +586,9 @@ function bindEvents() {
       const ids = entriesForPanel().map(entry => entry.id);
       if (ids.length) playFromList(ids[0], ids);
     } else if (action === 'new-playlist') openPlaylistDialog();
-    else if (action === 'rename-playlist') openPlaylistDialog(playlistForSelection());
+    else if (action === 'rename-playlist') openPlaylistDialog(editablePlaylistForSelection());
     else if (action === 'delete-playlist') {
-      const playlist = playlistForSelection();
+      const playlist = editablePlaylistForSelection();
       if (playlist && confirm('Delete “' + playlist.name + '”? Its songs will stay in your library.')) {
         state.playlists = state.playlists.filter(p => p !== playlist);
         state.collection = 'all';
@@ -619,11 +662,6 @@ function bindEvents() {
     saveSettings();
     applyAppearance();
   });
-  els.visuals.addEventListener('change', () => {
-    state.visuals = els.visuals.checked;
-    saveSettings();
-    applyAppearance();
-  });
   $('#play-pause').addEventListener('click', togglePlayback);
   $('#previous').addEventListener('click', previous);
   $('#next').addEventListener('click', () => advance());
@@ -677,11 +715,14 @@ function bindEvents() {
   audio.addEventListener('timeupdate', updateProgress);
   audio.addEventListener('durationchange', updateProgress);
   audio.addEventListener('error', () => {
-    if (state.currentId) toast('This file could not be played. Try a supported MP3 or MP4 audio codec.');
+    if (state.currentId && audio.error) skipUnplayable(state.currentId, playbackToken);
   });
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) stopVisualizer();
     else animateVisualizer();
+  });
+  window.addEventListener('resize', () => {
+    if (!animationFrame) drawVisualizer();
   });
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
@@ -748,6 +789,9 @@ async function initialize() {
         tracks.set(item.id, item);
         builtInIds.push(item.id);
       }
+      builtInPlaylists = (manifest.playlists || [])
+        .filter(playlist => playlist && typeof playlist.id === 'string' && typeof playlist.name === 'string' && Array.isArray(playlist.trackIds))
+        .map(playlist => ({ ...playlist, trackIds: playlist.trackIds.filter(id => tracks.has(id)) }));
     }
   } catch { toast('Could not load the music library index.'); }
   try {

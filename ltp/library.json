@@ -1,4 +1,1555 @@
 {
-  "generatedAt": "2026-09-28T17:36:38.320Z",
-  "tracks": []
+  "generatedAt": "2026-09-29T16:07:38.028Z",
+  "tracks": [
+    {
+      "id": "music:personal/《像极了》永彬RYAN.B [full version] ｜｜ Lyrics by @LZHOU [8q_b_fXazOo].mp3",
+      "src": "./music/personal/%E3%80%8A%E5%83%8F%E6%9E%81%E4%BA%86%E3%80%8B%E6%B0%B8%E5%BD%ACRYAN.B%20%5Bfull%20version%5D%20%EF%BD%9C%EF%BD%9C%20Lyrics%20by%20%40LZHOU%20%5B8q_b_fXazOo%5D.mp3",
+      "title": "《像极了》永彬RYAN.B [full version] || Lyrics by @LZHOU",
+      "artist": "LZHOU STUDIO",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664729330.6682
+    },
+    {
+      "id": "music:personal/【打火机】Lighter Official Music Video-Penny [HOp8wvUoXH4].mp3",
+      "src": "./music/personal/%E3%80%90%E6%89%93%E7%81%AB%E6%9C%BA%E3%80%91Lighter%20Official%20Music%20Video-Penny%20%5BHOp8wvUoXH4%5D.mp3",
+      "title": "【打火机】Lighter Official Music Video-Penny",
+      "artist": "Penny",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664590325.2927
+    },
+    {
+      "id": "music:lofi/5_32pm [6ustyT4Kx-g].mp3",
+      "src": "./music/lofi/5_32pm%20%5B6ustyT4Kx-g%5D.mp3",
+      "title": "5:32pm",
+      "artist": "The Deli",
+      "album": "Vibes 2",
+      "kind": "mp3",
+      "addedAt": 1790664269525.8687
+    },
+    {
+      "id": "music:lofi/90sFlav - Call me [VLtSCBSaCIQ].mp3",
+      "src": "./music/lofi/90sFlav%20-%20Call%20me%20%5BVLtSCBSaCIQ%5D.mp3",
+      "title": "90sFlav - Call me",
+      "artist": "Mr Microverse",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664328667.8767
+    },
+    {
+      "id": "music:pop/ABBA - Dancing Queen (Official Music Video) [xFrGuyw1V8s].mp3",
+      "src": "./music/pop/ABBA%20-%20Dancing%20Queen%20(Official%20Music%20Video)%20%5BxFrGuyw1V8s%5D.mp3",
+      "title": "ABBA - Dancing Queen (Official Music Video)",
+      "artist": "ABBA",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664449376.5652
+    },
+    {
+      "id": "music:lofi/affection [NAkZ8gUXcIE].mp3",
+      "src": "./music/lofi/affection%20%5BNAkZ8gUXcIE%5D.mp3",
+      "title": "affection",
+      "artist": "Jinsang",
+      "album": "life.",
+      "kind": "mp3",
+      "addedAt": 1790664294088.5095
+    },
+    {
+      "id": "music:lofi/Again [gEf-lKXY_uw].mp3",
+      "src": "./music/lofi/Again%20%5BgEf-lKXY_uw%5D.mp3",
+      "title": "Again",
+      "artist": "Wun Two",
+      "album": "Penthouse",
+      "kind": "mp3",
+      "addedAt": 1790664303241.1038
+    },
+    {
+      "id": "music:pop/Ariana Grande - Into You (Official Video) [1ekZEVeXwek].mp3",
+      "src": "./music/pop/Ariana%20Grande%20-%20Into%20You%20(Official%20Video)%20%5B1ekZEVeXwek%5D.mp3",
+      "title": "Ariana Grande - Into You (Official Video)",
+      "artist": "Ariana Grande",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664416199.298
+    },
+    {
+      "id": "music:lofi/aruarian dance [qYcoJpqCha4].mp3",
+      "src": "./music/lofi/aruarian%20dance%20%5BqYcoJpqCha4%5D.mp3",
+      "title": "aruarian dance",
+      "artist": "Nujabes",
+      "album": "samurai champloo music record departure",
+      "kind": "mp3",
+      "addedAt": 1790664346577.6829
+    },
+    {
+      "id": "music:pop/Avril Lavigne - Girlfriend (Official Video) [Bg59q4puhmg].mp3",
+      "src": "./music/pop/Avril%20Lavigne%20-%20Girlfriend%20(Official%20Video)%20%5BBg59q4puhmg%5D.mp3",
+      "title": "Avril Lavigne - Girlfriend (Official Video)",
+      "artist": "Avril Lavigne",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664458426.633
+    },
+    {
+      "id": "music:personal/BINGBIAN病变 (女声版) [goAiLy0D3kc].mp3",
+      "src": "./music/personal/BINGBIAN%E7%97%85%E5%8F%98%20(%E5%A5%B3%E5%A3%B0%E7%89%88)%20%5BgoAiLy0D3kc%5D.mp3",
+      "title": "BINGBIAN病变 (女声版)",
+      "artist": "鞠文娴",
+      "album": "BINGBIAN病变（女声版）",
+      "kind": "mp3",
+      "addedAt": 1790664788942.328
+    },
+    {
+      "id": "music:pop/Britney Spears - Toxic (Official HD Video) [LOZuxwVk7TU].mp3",
+      "src": "./music/pop/Britney%20Spears%20-%20Toxic%20(Official%20HD%20Video)%20%5BLOZuxwVk7TU%5D.mp3",
+      "title": "Britney Spears - Toxic (Official HD Video)",
+      "artist": "Britney Spears",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664396243.2437
+    },
+    {
+      "id": "music:pop/Carly Rae Jepsen - Call Me Maybe [fWNaR-rxAic].mp3",
+      "src": "./music/pop/Carly%20Rae%20Jepsen%20-%20Call%20Me%20Maybe%20%5BfWNaR-rxAic%5D.mp3",
+      "title": "Carly Rae Jepsen - Call Me Maybe",
+      "artist": "Carly Rae Jepsen",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664374311.4941
+    },
+    {
+      "id": "music:pop/Carly Rae Jepsen - Cut To The Feeling [o97_jDomyqc].mp3",
+      "src": "./music/pop/Carly%20Rae%20Jepsen%20-%20Cut%20To%20The%20Feeling%20%5Bo97_jDomyqc%5D.mp3",
+      "title": "Carly Rae Jepsen - Cut To The Feeling",
+      "artist": "Carly Rae Jepsen",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664474909.4246
+    },
+    {
+      "id": "music:pop/Chappell Roan - HOT TO GO! (Official Music Video) [xaPNR-_Cfn0].mp3",
+      "src": "./music/pop/Chappell%20Roan%20-%20HOT%20TO%20GO!%20(Official%20Music%20Video)%20%5BxaPNR-_Cfn0%5D.mp3",
+      "title": "Chappell Roan - HOT TO GO! (Official Music Video)",
+      "artist": "Chappell Roan",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664490379.324
+    },
+    {
+      "id": "music:pop/Demi Lovato - Give Your Heart a Break (Official Video) [1zfzka5VwRc].mp3",
+      "src": "./music/pop/Demi%20Lovato%20-%20Give%20Your%20Heart%20a%20Break%20(Official%20Video)%20%5B1zfzka5VwRc%5D.mp3",
+      "title": "Demi Lovato - Give Your Heart a Break (Official Video)",
+      "artist": "Demi Lovato",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664420580.424
+    },
+    {
+      "id": "music:pop/DJ Got Us Fallin' In Love [u4Fur5wRLyc].mp3",
+      "src": "./music/pop/DJ%20Got%20Us%20Fallin'%20In%20Love%20%5Bu4Fur5wRLyc%5D.mp3",
+      "title": "DJ Got Us Fallin' In Love",
+      "artist": "Usher, Pitbull",
+      "album": "Versus",
+      "kind": "mp3",
+      "addedAt": 1790664445581.6414
+    },
+    {
+      "id": "music:pop/Dua Lipa - Levitating (Official Lyrics Video) [WHuBW3qKm9g].mp3",
+      "src": "./music/pop/Dua%20Lipa%20-%20Levitating%20(Official%20Lyrics%20Video)%20%5BWHuBW3qKm9g%5D.mp3",
+      "title": "Dua Lipa - Levitating (Official Lyrics Video)",
+      "artist": "Dua Lipa",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664479136.622
+    },
+    {
+      "id": "music:lofi/eery - Her [riI6w_1ULTg].mp3",
+      "src": "./music/lofi/eery%20-%20Her%20%5BriI6w_1ULTg%5D.mp3",
+      "title": "eery - Her",
+      "artist": "Reelax",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664306199.6348
+    },
+    {
+      "id": "music:lofi/eevee - viola [mIqAMVq-IXU].mp3",
+      "src": "./music/lofi/eevee%20-%20viola%20%5BmIqAMVq-IXU%5D.mp3",
+      "title": "eevee - viola",
+      "artist": "eevee eveline",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664318934.544
+    },
+    {
+      "id": "music:lofi/Egyptian Pools [kPgSfyAFkEI].mp3",
+      "src": "./music/lofi/Egyptian%20Pools%20%5BkPgSfyAFkEI%5D.mp3",
+      "title": "Egyptian Pools",
+      "artist": "Jinsang",
+      "album": "Meditation",
+      "kind": "mp3",
+      "addedAt": 1790664290388.0566
+    },
+    {
+      "id": "music:lofi/Elijah Who - my new love [9A_RAY8lXVE].mp3",
+      "src": "./music/lofi/Elijah%20Who%20-%20my%20new%20love%20%5B9A_RAY8lXVE%5D.mp3",
+      "title": "Elijah Who - my new love",
+      "artist": "Volxo",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664300831.4807
+    },
+    {
+      "id": "music:lofi/elijah who - this girl [aksnDuHI9To].mp3",
+      "src": "./music/lofi/elijah%20who%20-%20this%20girl%20%5BaksnDuHI9To%5D.mp3",
+      "title": "elijah who - this girl",
+      "artist": "Dreamwave",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664278541.715
+    },
+    {
+      "id": "music:personal/Eric周興哲《你，好不好？ How Have You Been？》Official Music Video《遺憾拼圖》片尾曲 [wSBXfzgqHtE].mp3",
+      "src": "./music/personal/Eric%E5%91%A8%E8%88%88%E5%93%B2%E3%80%8A%E4%BD%A0%EF%BC%8C%E5%A5%BD%E4%B8%8D%E5%A5%BD%EF%BC%9F%20How%20Have%20You%20Been%EF%BC%9F%E3%80%8BOfficial%20Music%20Video%E3%80%8A%E9%81%BA%E6%86%BE%E6%8B%BC%E5%9C%96%E3%80%8B%E7%89%87%E5%B0%BE%E6%9B%B2%20%5BwSBXfzgqHtE%5D.mp3",
+      "title": "Eric周興哲《你，好不好？ How Have You Been?》Official Music Video《遺憾拼圖》片尾曲",
+      "artist": "周興哲 Eric Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665035200.2144
+    },
+    {
+      "id": "music:personal/Eric周興哲《永不失聯的愛 Unbreakable Love》『原創概念版』Official Music Video 《小妖的金色城堡》主題曲 [WJK8486VjfU].mp3",
+      "src": "./music/personal/Eric%E5%91%A8%E8%88%88%E5%93%B2%E3%80%8A%E6%B0%B8%E4%B8%8D%E5%A4%B1%E8%81%AF%E7%9A%84%E6%84%9B%20Unbreakable%20Love%E3%80%8B%E3%80%8E%E5%8E%9F%E5%89%B5%E6%A6%82%E5%BF%B5%E7%89%88%E3%80%8FOfficial%20Music%20Video%20%E3%80%8A%E5%B0%8F%E5%A6%96%E7%9A%84%E9%87%91%E8%89%B2%E5%9F%8E%E5%A0%A1%E3%80%8B%E4%B8%BB%E9%A1%8C%E6%9B%B2%20%5BWJK8486VjfU%5D.mp3",
+      "title": "Eric周興哲《永不失聯的愛 Unbreakable Love》『原創概念版』Official Music Video 《小妖的金色城堡》主題曲",
+      "artist": "周興哲 Eric Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665030924.4495
+    },
+    {
+      "id": "music:lofi/First Snow [MwisdkhGQXM].mp3",
+      "src": "./music/lofi/First%20Snow%20%5BMwisdkhGQXM%5D.mp3",
+      "title": "First Snow",
+      "artist": "Emancipator",
+      "album": "Soon It Will Be Cold Enough",
+      "kind": "mp3",
+      "addedAt": 1790664363671.5137
+    },
+    {
+      "id": "music:pop/Flo Rida - Low (feat. T-Pain) [Official Video] [U2waT9TxPU0].mp3",
+      "src": "./music/pop/Flo%20Rida%20-%20Low%20(feat.%20T-Pain)%20%5BOfficial%20Video%5D%20%5BU2waT9TxPU0%5D.mp3",
+      "title": "Flo Rida - Low (feat. T-Pain) [Official Video]",
+      "artist": "Flo Rida",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664436184.2551
+    },
+    {
+      "id": "music:personal/G.E.M. 鄧紫棋 - 喜歡你 Official MV [HD] [4OqXWzekVw4].mp3",
+      "src": "./music/personal/G.E.M.%20%E9%84%A7%E7%B4%AB%E6%A3%8B%20-%20%E5%96%9C%E6%AD%A1%E4%BD%A0%20Official%20MV%20%5BHD%5D%20%5B4OqXWzekVw4%5D.mp3",
+      "title": "G.E.M. 鄧紫棋 - 喜歡你 Official MV [HD]",
+      "artist": "GEM鄧紫棋",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664792110.3887
+    },
+    {
+      "id": "music:personal/G.E.M.【光年之外 LIGHT YEARS AWAY 】MV (電影《太空潛航者 Passengers》中文主題曲) [HD] 鄧紫棋 [T4SimnaiktU].mp3",
+      "src": "./music/personal/G.E.M.%E3%80%90%E5%85%89%E5%B9%B4%E4%B9%8B%E5%A4%96%20LIGHT%20YEARS%20AWAY%20%E3%80%91MV%20(%E9%9B%BB%E5%BD%B1%E3%80%8A%E5%A4%AA%E7%A9%BA%E6%BD%9B%E8%88%AA%E8%80%85%20Passengers%E3%80%8B%E4%B8%AD%E6%96%87%E4%B8%BB%E9%A1%8C%E6%9B%B2)%20%5BHD%5D%20%E9%84%A7%E7%B4%AB%E6%A3%8B%20%5BT4SimnaiktU%5D.mp3",
+      "title": "G.E.M.【光年之外 LIGHT YEARS AWAY 】MV (電影《太空潛航者 Passengers》中文主題曲) [HD] 鄧紫棋",
+      "artist": "GEM鄧紫棋",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665040273.933
+    },
+    {
+      "id": "music:personal/G.E.M.【再見 GOODBYE】Official MV [HD] 鄧紫棋 [Lhel0tzHE08].mp3",
+      "src": "./music/personal/G.E.M.%E3%80%90%E5%86%8D%E8%A6%8B%20GOODBYE%E3%80%91Official%20MV%20%5BHD%5D%20%E9%84%A7%E7%B4%AB%E6%A3%8B%20%5BLhel0tzHE08%5D.mp3",
+      "title": "G.E.M.【再見 GOODBYE】Official MV [HD] 鄧紫棋",
+      "artist": "GEM鄧紫棋",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664780340.1267
+    },
+    {
+      "id": "music:personal/G.E.M.【多遠都要在一起 LONG DISTANCE】Official MV [HD] 鄧紫棋 [D9ksLn6hZ7Q].mp3",
+      "src": "./music/personal/G.E.M.%E3%80%90%E5%A4%9A%E9%81%A0%E9%83%BD%E8%A6%81%E5%9C%A8%E4%B8%80%E8%B5%B7%20LONG%20DISTANCE%E3%80%91Official%20MV%20%5BHD%5D%20%E9%84%A7%E7%B4%AB%E6%A3%8B%20%5BD9ksLn6hZ7Q%5D.mp3",
+      "title": "G.E.M.【多遠都要在一起 LONG DISTANCE】Official MV [HD] 鄧紫棋",
+      "artist": "GEM鄧紫棋",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664681131.6885
+    },
+    {
+      "id": "music:lofi/Getsomerest⧸sleepwell [lZq4UDKja24].mp3",
+      "src": "./music/lofi/Getsomerest%E2%A7%B8sleepwell%20%5BlZq4UDKja24%5D.mp3",
+      "title": "Getsomerest/sleepwell",
+      "artist": "Quickly Quickly",
+      "album": "Quickly Quickly, Vol. 1",
+      "kind": "mp3",
+      "addedAt": 1790664286254.6523
+    },
+    {
+      "id": "music:lofi/Idealism - Both Of Us [Djz-AXDO27Q].mp3",
+      "src": "./music/lofi/Idealism%20-%20Both%20Of%20Us%20%5BDjz-AXDO27Q%5D.mp3",
+      "title": "Idealism - Both Of Us",
+      "artist": "Chillhop Music",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664312428.6257
+    },
+    {
+      "id": "music:lofi/Idealism - Snowfall [o2k1OckoOso].mp3",
+      "src": "./music/lofi/Idealism%20-%20Snowfall%20%5Bo2k1OckoOso%5D.mp3",
+      "title": "Idealism - Snowfall",
+      "artist": "SOUNDISSTYLE",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664370050.307
+    },
+    {
+      "id": "music:lofi/in love with a ghost ｜ we've never met but, can we have a coffee or something？ [0XZJ5mD6nSU].mp3",
+      "src": "./music/lofi/in%20love%20with%20a%20ghost%20%EF%BD%9C%20we've%20never%20met%20but%2C%20can%20we%20have%20a%20coffee%20or%20something%EF%BC%9F%20%5B0XZJ5mD6nSU%5D.mp3",
+      "title": "in love with a ghost | we've never met but, can we have a coffee or something?",
+      "artist": "In Love With A Ghost (InLoveWithAGhost)",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664309205.1514
+    },
+    {
+      "id": "music:lofi/J Dilla - Time： The Donut of the Heart - Donuts (Full Album) [c6qOBFkvdG0].mp3",
+      "src": "./music/lofi/J%20Dilla%20-%20Time%EF%BC%9A%20The%20Donut%20of%20the%20Heart%20-%20Donuts%20(Full%20Album)%20%5Bc6qOBFkvdG0%5D.mp3",
+      "title": "J Dilla - Time: The Donut of the Heart - Donuts (Full Album)",
+      "artist": "Stones Throw",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664356372.8792
+    },
+    {
+      "id": "music:personal/J.Sheon - Don't Ask 別問很可怕 (Official Music Video) [tRa3fOlnN7k].mp3",
+      "src": "./music/personal/J.Sheon%20-%20Don't%20Ask%20%E5%88%A5%E5%95%8F%E5%BE%88%E5%8F%AF%E6%80%95%20(Official%20Music%20Video)%20%5BtRa3fOlnN7k%5D.mp3",
+      "title": "J.Sheon - Don't Ask 別問很可怕 (Official Music Video)",
+      "artist": "J.Sheon",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664574926.6418
+    },
+    {
+      "id": "music:personal/J.Tajor - Like I Do (Official Music Video) [MW79zgnSF40].mp3",
+      "src": "./music/personal/J.Tajor%20-%20Like%20I%20Do%20(Official%20Music%20Video)%20%5BMW79zgnSF40%5D.mp3",
+      "title": "J.Tajor - Like I Do (Official Music Video)",
+      "artist": "J Tajor",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664495009.2537
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Aegean Sea 愛琴海】Official Music Video [ZLldhJXp7iw].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Aegean%20Sea%20%E6%84%9B%E7%90%B4%E6%B5%B7%E3%80%91Official%20Music%20Video%20%5BZLldhJXp7iw%5D.mp3",
+      "title": "Jay Chou 周杰倫【Aegean Sea 愛琴海】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664908391.0554
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Aurora in July 七月的極光】Official Music Video [PJyFND4-zR4].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Aurora%20in%20July%20%E4%B8%83%E6%9C%88%E7%9A%84%E6%A5%B5%E5%85%89%E3%80%91Official%20Music%20Video%20%5BPJyFND4-zR4%5D.mp3",
+      "title": "Jay Chou 周杰倫【Aurora in July 七月的極光】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664830257.6357
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Children of the Sun 太陽之子】Official Music Video [Hgnpi3eBQ9o].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Children%20of%20the%20Sun%20%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%AD%90%E3%80%91Official%20Music%20Video%20%5BHgnpi3eBQ9o%5D.mp3",
+      "title": "Jay Chou 周杰倫【Children of the Sun 太陽之子】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664888690.6575
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Country Road 鄉間的路】Official Music Video [XAhKFiPqGRQ].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Country%20Road%20%E9%84%89%E9%96%93%E7%9A%84%E8%B7%AF%E3%80%91Official%20Music%20Video%20%5BXAhKFiPqGRQ%5D.mp3",
+      "title": "Jay Chou 周杰倫【Country Road 鄉間的路】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664930205.2664
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Gold Rush Town 淘金小鎮】Official Music Video [SW3OQ0ijUCI].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Gold%20Rush%20Town%20%E6%B7%98%E9%87%91%E5%B0%8F%E9%8E%AE%E3%80%91Official%20Music%20Video%20%5BSW3OQ0ijUCI%5D.mp3",
+      "title": "Jay Chou 周杰倫【Gold Rush Town 淘金小鎮】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664925135.4602
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【I Do】Official Music Video [wIgduzASI6A].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90I%20Do%E3%80%91Official%20Music%20Video%20%5BwIgduzASI6A%5D.mp3",
+      "title": "Jay Chou 周杰倫【I Do】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664912753.9072
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【My Daughter, Your Highness女兒殿下】Official Music Video [aGsrg1NO1cM].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90My%20Daughter%2C%20Your%20Highness%E5%A5%B3%E5%85%92%E6%AE%BF%E4%B8%8B%E3%80%91Official%20Music%20Video%20%5BaGsrg1NO1cM%5D.mp3",
+      "title": "Jay Chou 周杰倫【My Daughter, Your Highness女兒殿下】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664920796.621
+    },
+    {
+      "id": "music:personal/Jay Chou 周杰倫【Who Cares 誰稀罕】Official Music Video [a7ziV-RjqBo].mp3",
+      "src": "./music/personal/Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%E3%80%90Who%20Cares%20%E8%AA%B0%E7%A8%80%E7%BD%95%E3%80%91Official%20Music%20Video%20%5Ba7ziV-RjqBo%5D.mp3",
+      "title": "Jay Chou 周杰倫【Who Cares 誰稀罕】Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664903642.2107
+    },
+    {
+      "id": "music:personal/JAY CHOU周杰倫 新專輯 【太陽之子】- 04 湘女多情 [FVsDR0U09to].mp3",
+      "src": "./music/personal/JAY%20CHOU%E5%91%A8%E6%9D%B0%E5%80%AB%20%E6%96%B0%E5%B0%88%E8%BC%AF%20%E3%80%90%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%AD%90%E3%80%91-%2004%20%E6%B9%98%E5%A5%B3%E5%A4%9A%E6%83%85%20%5BFVsDR0U09to%5D.mp3",
+      "title": "JAY CHOU周杰倫 新專輯 【太陽之子】- 04 湘女多情",
+      "artist": "abbw8776",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664899172.3513
+    },
+    {
+      "id": "music:personal/Jumping Machine (跳楼机) [TOC78RUj8pg].mp3",
+      "src": "./music/personal/Jumping%20Machine%20(%E8%B7%B3%E6%A5%BC%E6%9C%BA)%20%5BTOC78RUj8pg%5D.mp3",
+      "title": "Jumping Machine (跳楼机)",
+      "artist": "LBI",
+      "album": "Jumping Machine (跳楼机)",
+      "kind": "mp3",
+      "addedAt": 1790664550454.5396
+    },
+    {
+      "id": "music:pop/Justin Bieber - Baby ft. Ludacris [kffacxfA7G4].mp3",
+      "src": "./music/pop/Justin%20Bieber%20-%20Baby%20ft.%20Ludacris%20%5BkffacxfA7G4%5D.mp3",
+      "title": "Justin Bieber - Baby ft. Ludacris",
+      "artist": "Justin Bieber",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664406983.1282
+    },
+    {
+      "id": "music:pop/Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg [F57P9C4SAW4].mp3",
+      "src": "./music/pop/Katy%20Perry%20-%20California%20Gurls%20(Official%20Music%20Video)%20ft.%20Snoop%20Dogg%20%5BF57P9C4SAW4%5D.mp3",
+      "title": "Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg",
+      "artist": "Katy Perry",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664470562.078
+    },
+    {
+      "id": "music:pop/Katy Perry - Teenage Dream (Official Music Video) [98WtmW-lfeE].mp3",
+      "src": "./music/pop/Katy%20Perry%20-%20Teenage%20Dream%20(Official%20Music%20Video)%20%5B98WtmW-lfeE%5D.mp3",
+      "title": "Katy Perry - Teenage Dream (Official Music Video)",
+      "artist": "Katy Perry",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664382871.8477
+    },
+    {
+      "id": "music:pop/Ke$ha - TiK ToK (Official HD Video) [iP6XpLQM2Cs].mp3",
+      "src": "./music/pop/Ke%24ha%20-%20TiK%20ToK%20(Official%20HD%20Video)%20%5BiP6XpLQM2Cs%5D.mp3",
+      "title": "Ke$ha - TiK ToK (Official HD Video)",
+      "artist": "kesha",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664386884.07
+    },
+    {
+      "id": "music:personal/Kentaro - 空唄 (feat.汐菜) Official Lyric Video [I8HYN3WsuOQ].mp3",
+      "src": "./music/personal/Kentaro%20-%20%E7%A9%BA%E5%94%84%20(feat.%E6%B1%90%E8%8F%9C)%20Official%20Lyric%20Video%20%5BI8HYN3WsuOQ%5D.mp3",
+      "title": "Kentaro - 空唄 (feat.汐菜) Official Lyric Video",
+      "artist": "Kentaro",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664535414.943
+    },
+    {
+      "id": "music:personal/Kimberley陳芳語《愛你AINI》Official MV(HD) [KGrulNiJ6Uc].mp3",
+      "src": "./music/personal/Kimberley%E9%99%B3%E8%8A%B3%E8%AA%9E%E3%80%8A%E6%84%9B%E4%BD%A0AINI%E3%80%8BOfficial%20MV(HD)%20%5BKGrulNiJ6Uc%5D.mp3",
+      "title": "Kimberley陳芳語《愛你AINI》Official MV(HD)",
+      "artist": "Kimberley Chen",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664624214.7576
+    },
+    {
+      "id": "music:pop/Lady Gaga - Bad Romance (Official Music Video) [qrO4YZeyl0I].mp3",
+      "src": "./music/pop/Lady%20Gaga%20-%20Bad%20Romance%20(Official%20Music%20Video)%20%5BqrO4YZeyl0I%5D.mp3",
+      "title": "Lady Gaga - Bad Romance (Official Music Video)",
+      "artist": "Lady Gaga",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664390795.309
+    },
+    {
+      "id": "music:personal/Lil Ghost小鬼 - 王琳凯 - GOOD NIGHT [a_ELq3dTKYA].mp3",
+      "src": "./music/personal/Lil%20Ghost%E5%B0%8F%E9%AC%BC%20-%20%E7%8E%8B%E7%90%B3%E5%87%AF%20-%20GOOD%20NIGHT%20%5Ba_ELq3dTKYA%5D.mp3",
+      "title": "Lil Ghost小鬼 - 王琳凯 - GOOD NIGHT",
+      "artist": "森藍音樂",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664499680.0933
+    },
+    {
+      "id": "music:lofi/Limes - Jovial [dP5z942m7Qs].mp3",
+      "src": "./music/lofi/Limes%20-%20Jovial%20%5BdP5z942m7Qs%5D.mp3",
+      "title": "Limes - Jovial",
+      "artist": "MellowVibes",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664275273.1453
+    },
+    {
+      "id": "music:lofi/Luv Letter [U7LgZFULBfg].mp3",
+      "src": "./music/lofi/Luv%20Letter%20%5BU7LgZFULBfg%5D.mp3",
+      "title": "Luv Letter",
+      "artist": "DJ OKAWARI",
+      "album": "Libyus Music Sound History 2004－2010",
+      "kind": "mp3",
+      "addedAt": 1790664358861.4155
+    },
+    {
+      "id": "music:pop/Miley Cyrus - Party In The U.S.A. (Official Video) [M11SvDtPBhA].mp3",
+      "src": "./music/pop/Miley%20Cyrus%20-%20Party%20In%20The%20U.S.A.%20(Official%20Video)%20%5BM11SvDtPBhA%5D.mp3",
+      "title": "Miley Cyrus - Party In The U.S.A. (Official Video)",
+      "artist": "HollywoodRecordsVEVO",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664399467.6106
+    },
+    {
+      "id": "music:lofi/Monday Loop [0-gJSbiLkgA].mp3",
+      "src": "./music/lofi/Monday%20Loop%20%5B0-gJSbiLkgA%5D.mp3",
+      "title": "Monday Loop",
+      "artist": "Tomppabeats",
+      "album": "Harbor",
+      "kind": "mp3",
+      "addedAt": 1790664340698.7473
+    },
+    {
+      "id": "music:pop/Natasha Bedingfield - Unwritten (Official Video) (as featured in Anyone But You) [b7k0a5hYnSI].mp3",
+      "src": "./music/pop/Natasha%20Bedingfield%20-%20Unwritten%20(Official%20Video)%20(as%20featured%20in%20Anyone%20But%20You)%20%5Bb7k0a5hYnSI%5D.mp3",
+      "title": "Natasha Bedingfield - Unwritten (Official Video) (as featured in Anyone But You)",
+      "artist": "Natasha Bedingfield",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664453373.4485
+    },
+    {
+      "id": "music:pop/Nicki Minaj - Starships (Explicit) (Official Video) [SeIJmciN8mo].mp3",
+      "src": "./music/pop/Nicki%20Minaj%20-%20Starships%20(Explicit)%20(Official%20Video)%20%5BSeIJmciN8mo%5D.mp3",
+      "title": "Nicki Minaj - Starships (Explicit) (Official Video)",
+      "artist": "Nicki Minaj",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664430002.1765
+    },
+    {
+      "id": "music:lofi/o k h o -  long espresso [q4je4mf9FUs].mp3",
+      "src": "./music/lofi/o%20k%20h%20o%20-%20%20long%20espresso%20%5Bq4je4mf9FUs%5D.mp3",
+      "title": "o k h o -  long espresso",
+      "artist": "Whittom",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664338314.1748
+    },
+    {
+      "id": "music:pop/Olivia Rodrigo - good 4 u (Official Video) [gNi_6U5Pm_o].mp3",
+      "src": "./music/pop/Olivia%20Rodrigo%20-%20good%204%20u%20(Official%20Video)%20%5BgNi_6U5Pm_o%5D.mp3",
+      "title": "Olivia Rodrigo - good 4 u (Official Video)",
+      "artist": "Olivia Rodrigo",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664483091.6494
+    },
+    {
+      "id": "music:pop/One Direction - What Makes You Beautiful (Official Video) [QJO3ROT-A4E].mp3",
+      "src": "./music/pop/One%20Direction%20-%20What%20Makes%20You%20Beautiful%20(Official%20Video)%20%5BQJO3ROT-A4E%5D.mp3",
+      "title": "One Direction - What Makes You Beautiful (Official Video)",
+      "artist": "One Direction",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664403358.844
+    },
+    {
+      "id": "music:pop/P!nk - Raise Your Glass (Official Video) [XjVNlG5cZyQ].mp3",
+      "src": "./music/pop/P!nk%20-%20Raise%20Your%20Glass%20(Official%20Video)%20%5BXjVNlG5cZyQ%5D.mp3",
+      "title": "P!nk - Raise Your Glass (Official Video)",
+      "artist": "P!NK",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664462608.2864
+    },
+    {
+      "id": "music:pop/Pitbull, Ke$ha - Timber (featuring Ke$ha - Official Video) [hHUbLv4ThOo].mp3",
+      "src": "./music/pop/Pitbull%2C%20Ke%24ha%20-%20Timber%20(featuring%20Ke%24ha%20-%20Official%20Video)%20%5BhHUbLv4ThOo%5D.mp3",
+      "title": "Pitbull, Ke$ha - Timber (featuring Ke$ha - Official Video)",
+      "artist": "Pitbull",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664433180.3296
+    },
+    {
+      "id": "music:personal/Regina Spektor - Becoming All Alone [Official Lyric Video] [Nh17jXzgI1E].mp3",
+      "src": "./music/personal/Regina%20Spektor%20-%20Becoming%20All%20Alone%20%5BOfficial%20Lyric%20Video%5D%20%5BNh17jXzgI1E%5D.mp3",
+      "title": "Regina Spektor - Becoming All Alone [Official Lyric Video]",
+      "artist": "Regina Spektor",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664938432.9392
+    },
+    {
+      "id": "music:pop/Rihanna - We Found Love ft. Calvin Harris [tg00YEETFzg].mp3",
+      "src": "./music/pop/Rihanna%20-%20We%20Found%20Love%20ft.%20Calvin%20Harris%20%5Btg00YEETFzg%5D.mp3",
+      "title": "Rihanna - We Found Love ft. Calvin Harris",
+      "artist": "Rihanna",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664424302.9934
+    },
+    {
+      "id": "music:lofi/RŮDE - Eternal Youth [3uXHaVENo6E].mp3",
+      "src": "./music/lofi/R%C5%AEDE%20-%20Eternal%20Youth%20%5B3uXHaVENo6E%5D.mp3",
+      "title": "RŮDE - Eternal Youth",
+      "artist": "RŮDE",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664296968.075
+    },
+    {
+      "id": "music:pop/Sabrina Carpenter - Espresso [eVli-tstM5E].mp3",
+      "src": "./music/pop/Sabrina%20Carpenter%20-%20Espresso%20%5BeVli-tstM5E%5D.mp3",
+      "title": "Sabrina Carpenter - Espresso",
+      "artist": "Sabrina Carpenter",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664486457.456
+    },
+    {
+      "id": "music:lofi/sagun - I'll Keep You Safe (feat. Shiloh) [7ly7Mhle-4M].mp3",
+      "src": "./music/lofi/sagun%20-%20I'll%20Keep%20You%20Safe%20(feat.%20Shiloh)%20%5B7ly7Mhle-4M%5D.mp3",
+      "title": "sagun - I'll Keep You Safe (feat. Shiloh)",
+      "artist": "sagun",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664343074.3188
+    },
+    {
+      "id": "music:lofi/Saib - Sakura Trees [Chill Hop] [Xa5_zuBVVQE].mp3",
+      "src": "./music/lofi/Saib%20-%20Sakura%20Trees%20%5BChill%20Hop%5D%20%5BXa5_zuBVVQE%5D.mp3",
+      "title": "Saib - Sakura Trees [Chill Hop]",
+      "artist": "Anomal Bass",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664272723.4714
+    },
+    {
+      "id": "music:pop/Selena Gomez & The Scene - Love You Like A Love Song [EgT_us6AsDg].mp3",
+      "src": "./music/pop/Selena%20Gomez%20%26%20The%20Scene%20-%20Love%20You%20Like%20A%20Love%20Song%20%5BEgT_us6AsDg%5D.mp3",
+      "title": "Selena Gomez & The Scene - Love You Like A Love Song",
+      "artist": "Selena Gomez",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664412337.0664
+    },
+    {
+      "id": "music:lofi/sincerely, yours [ sophie meiers x nohidea ] [mlsOwYQgqAo].mp3",
+      "src": "./music/lofi/sincerely%2C%20yours%20%5B%20sophie%20meiers%20x%20nohidea%20%5D%20%5BmlsOwYQgqAo%5D.mp3",
+      "title": "sincerely, yours [ sophie meiers x nohidea ]",
+      "artist": "sophie meiers",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664315521.1147
+    },
+    {
+      "id": "music:lofi/sleepdealer - rolling papers [9tJbAr5Sv0Q].mp3",
+      "src": "./music/lofi/sleepdealer%20-%20rolling%20papers%20%5B9tJbAr5Sv0Q%5D.mp3",
+      "title": "sleepdealer - rolling papers",
+      "artist": "Axian",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664326179.3079
+    },
+    {
+      "id": "music:pop/Taio Cruz - Dynamite (Official Video) [VUjdiDeJ0xg].mp3",
+      "src": "./music/pop/Taio%20Cruz%20-%20Dynamite%20(Official%20Video)%20%5BVUjdiDeJ0xg%5D.mp3",
+      "title": "Taio Cruz - Dynamite (Official Video)",
+      "artist": "Taio Cruz",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664441720.54
+    },
+    {
+      "id": "music:pop/Taylor Swift - Love Story [8xg3vE8Ie_E].mp3",
+      "src": "./music/pop/Taylor%20Swift%20-%20Love%20Story%20%5B8xg3vE8Ie_E%5D.mp3",
+      "title": "Taylor Swift - Love Story",
+      "artist": "Taylor Swift",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664466451.6907
+    },
+    {
+      "id": "music:pop/Taylor Swift - You Belong With Me [VuNIsY6JdUw].mp3",
+      "src": "./music/pop/Taylor%20Swift%20-%20You%20Belong%20With%20Me%20%5BVuNIsY6JdUw%5D.mp3",
+      "title": "Taylor Swift - You Belong With Me",
+      "artist": "Taylor Swift",
+      "album": "pop",
+      "kind": "mp3",
+      "addedAt": 1790664378702.6519
+    },
+    {
+      "id": "music:lofi/The Deli - Flowers [4xmaM2DsudI].mp3",
+      "src": "./music/lofi/The%20Deli%20-%20Flowers%20%5B4xmaM2DsudI%5D.mp3",
+      "title": "The Deli - Flowers",
+      "artist": "STREAM MUSIC",
+      "album": "lofi",
+      "kind": "mp3",
+      "addedAt": 1790664281937.2554
+    },
+    {
+      "id": "music:lofi/The Girl I Haven't Met [Ggddxkj8tU0].mp3",
+      "src": "./music/lofi/The%20Girl%20I%20Haven't%20Met%20%5BGgddxkj8tU0%5D.mp3",
+      "title": "The Girl I Haven't Met",
+      "artist": "Kudasaibeats",
+      "album": "Falling",
+      "kind": "mp3",
+      "addedAt": 1790664331271.4219
+    },
+    {
+      "id": "music:personal/Will Pan (潘瑋柏) ft. Angela Chang (張韶涵) - 快樂崇拜 Happy Worship (OT： Come On) [E1-ZqU0q4ZE].mp3",
+      "src": "./music/personal/Will%20Pan%20(%E6%BD%98%E7%91%8B%E6%9F%8F)%20ft.%20Angela%20Chang%20(%E5%BC%B5%E9%9F%B6%E6%B6%B5)%20-%20%E5%BF%AB%E6%A8%82%E5%B4%87%E6%8B%9C%20Happy%20Worship%20(OT%EF%BC%9A%20Come%20On)%20%5BE1-ZqU0q4ZE%5D.mp3",
+      "title": "Will Pan (潘瑋柏) ft. Angela Chang (張韶涵) - 快樂崇拜 Happy Worship (OT: Come On)",
+      "artist": "PopMVtw",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664514580.197
+    },
+    {
+      "id": "music:personal/一路向北 [Qq2ix2BewvA].mp3",
+      "src": "./music/personal/%E4%B8%80%E8%B7%AF%E5%90%91%E5%8C%97%20%5BQq2ix2BewvA%5D.mp3",
+      "title": "一路向北",
+      "artist": "周杰倫",
+      "album": "11月的蕭邦",
+      "kind": "mp3",
+      "addedAt": 1790664883464.7974
+    },
+    {
+      "id": "music:personal/从前说 [SmpPd6EMWEg].mp3",
+      "src": "./music/personal/%E4%BB%8E%E5%89%8D%E8%AF%B4%20%5BSmpPd6EMWEg%5D.mp3",
+      "title": "从前说",
+      "artist": "小阿七",
+      "album": "从前说",
+      "kind": "mp3",
+      "addedAt": 1790664724069.269
+    },
+    {
+      "id": "music:personal/你的答案 [Tziswp8xQ_4].mp3",
+      "src": "./music/personal/%E4%BD%A0%E7%9A%84%E7%AD%94%E6%A1%88%20%5BTziswp8xQ_4%5D.mp3",
+      "title": "你的答案",
+      "artist": "阿冗",
+      "album": "你的答案",
+      "kind": "mp3",
+      "addedAt": 1790664758677.3684
+    },
+    {
+      "id": "music:personal/侧脸 [wK6-7ipVpwE].mp3",
+      "src": "./music/personal/%E4%BE%A7%E8%84%B8%20%5BwK6-7ipVpwE%5D.mp3",
+      "title": "侧脸",
+      "artist": "于果",
+      "album": "侧脸",
+      "kind": "mp3",
+      "addedAt": 1790664720695.996
+    },
+    {
+      "id": "music:personal/倫桑《答案》傷感男聲版 - 愛就像藍天白雲，晴空萬里，突然暴風雨【抖音熱門 - 動態歌詞版】 [tRVcQqkFVfc].mp3",
+      "src": "./music/personal/%E5%80%AB%E6%A1%91%E3%80%8A%E7%AD%94%E6%A1%88%E3%80%8B%E5%82%B7%E6%84%9F%E7%94%B7%E8%81%B2%E7%89%88%20-%20%E6%84%9B%E5%B0%B1%E5%83%8F%E8%97%8D%E5%A4%A9%E7%99%BD%E9%9B%B2%EF%BC%8C%E6%99%B4%E7%A9%BA%E8%90%AC%E9%87%8C%EF%BC%8C%E7%AA%81%E7%84%B6%E6%9A%B4%E9%A2%A8%E9%9B%A8%E3%80%90%E6%8A%96%E9%9F%B3%E7%86%B1%E9%96%80%20-%20%E5%8B%95%E6%85%8B%E6%AD%8C%E8%A9%9E%E7%89%88%E3%80%91%20%5BtRVcQqkFVfc%5D.mp3",
+      "title": "倫桑《答案》傷感男聲版 - 愛就像藍天白雲，晴空萬里，突然暴風雨【抖音熱門 - 動態歌詞版】",
+      "artist": "LuLu Qun Music Channel",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664712948.318
+    },
+    {
+      "id": "music:personal/光良 Michael Wong【童話】Official Music Video [bBcp_ljCBGU].mp3",
+      "src": "./music/personal/%E5%85%89%E8%89%AF%20Michael%20Wong%E3%80%90%E7%AB%A5%E8%A9%B1%E3%80%91Official%20Music%20Video%20%5BbBcp_ljCBGU%5D.mp3",
+      "title": "光良 Michael Wong【童話】Official Music Video",
+      "artist": "滾石唱片 ROCK RECORDS",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664579178.5728
+    },
+    {
+      "id": "music:personal/听说你 [Zg71bCpy5ew].mp3",
+      "src": "./music/personal/%E5%90%AC%E8%AF%B4%E4%BD%A0%20%5BZg71bCpy5ew%5D.mp3",
+      "title": "听说你",
+      "artist": "于冬然",
+      "album": "听说你",
+      "kind": "mp3",
+      "addedAt": 1790664754780.1902
+    },
+    {
+      "id": "music:personal/告五人 Accusefive 【愛人錯過 Somewhere in time】Official Music Video [6D79CYTxvOM].mp3",
+      "src": "./music/personal/%E5%91%8A%E4%BA%94%E4%BA%BA%20Accusefive%20%E3%80%90%E6%84%9B%E4%BA%BA%E9%8C%AF%E9%81%8E%20Somewhere%20in%20time%E3%80%91Official%20Music%20Video%20%5B6D79CYTxvOM%5D.mp3",
+      "title": "告五人 Accusefive 【愛人錯過 Somewhere in time】Official Music Video",
+      "artist": "告五人Accusefive",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665044973.6702
+    },
+    {
+      "id": "music:personal/告五人 Accusefive【帶我去找夜生活 Night life.Take us to the light】Official Music Video [W9Fq1HC_5hg].mp3",
+      "src": "./music/personal/%E5%91%8A%E4%BA%94%E4%BA%BA%20Accusefive%E3%80%90%E5%B8%B6%E6%88%91%E5%8E%BB%E6%89%BE%E5%A4%9C%E7%94%9F%E6%B4%BB%20Night%20life.Take%20us%20to%20the%20light%E3%80%91Official%20Music%20Video%20%5BW9Fq1HC_5hg%5D.mp3",
+      "title": "告五人 Accusefive【帶我去找夜生活 Night life.Take us to the light】Official Music Video",
+      "artist": "告五人Accusefive",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664732794.9146
+    },
+    {
+      "id": "music:personal/周杰倫 JAY CHOU (feat. 楊瑞代) 【聖誕星 Christmas Star】Official MV [IXuhdnB2dAY].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20JAY%20CHOU%20(feat.%20%E6%A5%8A%E7%91%9E%E4%BB%A3)%20%E3%80%90%E8%81%96%E8%AA%95%E6%98%9F%20Christmas%20Star%E3%80%91Official%20MV%20%5BIXuhdnB2dAY%5D.mp3",
+      "title": "周杰倫 JAY CHOU (feat. 楊瑞代) 【聖誕星 Christmas Star】Official MV",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664934614.0928
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou (特別演出： 派偉俊)【告白氣球 Love Confession】Official MV [bu7nU9Mhpyo].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%20(%E7%89%B9%E5%88%A5%E6%BC%94%E5%87%BA%EF%BC%9A%20%E6%B4%BE%E5%81%89%E4%BF%8A)%E3%80%90%E5%91%8A%E7%99%BD%E6%B0%A3%E7%90%83%20Love%20Confession%E3%80%91Official%20MV%20%5Bbu7nU9Mhpyo%5D.mp3",
+      "title": "周杰倫 Jay Chou (特別演出: 派偉俊)【告白氣球 Love Confession】Official MV",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664968803.6135
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【七里香 Orange Jasmine】-Official Music Video [Bbp9ZaJD_eA].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E4%B8%83%E9%87%8C%E9%A6%99%20Orange%20Jasmine%E3%80%91-Official%20Music%20Video%20%5BBbp9ZaJD_eA%5D.mp3",
+      "title": "周杰倫 Jay Chou【七里香 Orange Jasmine】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664954950.24
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【四面楚歌 Surrounded】-Official Music Video [JljURsMOLmc].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E5%9B%9B%E9%9D%A2%E6%A5%9A%E6%AD%8C%20Surrounded%E3%80%91-Official%20Music%20Video%20%5BJljURsMOLmc%5D.mp3",
+      "title": "周杰倫 Jay Chou【四面楚歌 Surrounded】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664853267.4163
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【夜曲 Nocturne】-Official Music Video [6Q0Pd53mojY].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E5%A4%9C%E6%9B%B2%20Nocturne%E3%80%91-Official%20Music%20Video%20%5B6Q0Pd53mojY%5D.mp3",
+      "title": "周杰倫 Jay Chou【夜曲 Nocturne】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664522309.9888
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【安靜 Silence】Official MV [1hI-7vj2FhE].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E5%AE%89%E9%9D%9C%20Silence%E3%80%91Official%20MV%20%5B1hI-7vj2FhE%5D.mp3",
+      "title": "周杰倫 Jay Chou【安靜 Silence】Official MV",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664989941.596
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【擱淺 Step Aside】-Official Music Video [YJfHuATJYsQ].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E6%93%B1%E6%B7%BA%20Step%20Aside%E3%80%91-Official%20Music%20Video%20%5BYJfHuATJYsQ%5D.mp3",
+      "title": "周杰倫 Jay Chou【擱淺 Step Aside】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664805622.5747
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【晴天 Sunny Day】-Official Music Video [DYptgVvkVLQ].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E6%99%B4%E5%A4%A9%20Sunny%20Day%E3%80%91-Official%20Music%20Video%20%5BDYptgVvkVLQ%5D.mp3",
+      "title": "周杰倫 Jay Chou【晴天 Sunny Day】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664641899.6616
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【楓Maple Leaf 】-Official Music Video [qzwsQTY-99o].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E6%A5%93Maple%20Leaf%20%E3%80%91-Official%20Music%20Video%20%5BqzwsQTY-99o%5D.mp3",
+      "title": "周杰倫 Jay Chou【楓Maple Leaf 】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664825716.6494
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【珊瑚海 Coral Sea (feat. 梁心頤 Lara)】-Official Music Video [kYhh1PpsOg4].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E7%8F%8A%E7%91%9A%E6%B5%B7%20Coral%20Sea%20(feat.%20%E6%A2%81%E5%BF%83%E9%A0%A4%20Lara)%E3%80%91-Official%20Music%20Video%20%5BkYhh1PpsOg4%5D.mp3",
+      "title": "周杰倫 Jay Chou【珊瑚海 Coral Sea (feat. 梁心頤 Lara)】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664817083.645
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【稻香 Rice Field】-Official Music Video [sHD_z90ZKV0].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E7%A8%BB%E9%A6%99%20Rice%20Field%E3%80%91-Official%20Music%20Video%20%5BsHD_z90ZKV0%5D.mp3",
+      "title": "周杰倫 Jay Chou【稻香 Rice Field】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664946790.5923
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【簡單愛 Simple Love】Official MV [Y4xCVlyCvX4].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E7%B0%A1%E5%96%AE%E6%84%9B%20Simple%20Love%E3%80%91Official%20MV%20%5BY4xCVlyCvX4%5D.mp3",
+      "title": "周杰倫 Jay Chou【簡單愛 Simple Love】Official MV",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664964280.8215
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【花海 Floral Sea】-Official Music Video [q1ww6bDjfiI].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E8%8A%B1%E6%B5%B7%20Floral%20Sea%E3%80%91-Official%20Music%20Video%20%5Bq1ww6bDjfiI%5D.mp3",
+      "title": "周杰倫 Jay Chou【花海 Floral Sea】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664998973.141
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【藍色風暴 Blue Storm】-Official Music Video [P7ItYKdY0WU].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E8%97%8D%E8%89%B2%E9%A2%A8%E6%9A%B4%20Blue%20Storm%E3%80%91-Official%20Music%20Video%20%5BP7ItYKdY0WU%5D.mp3",
+      "title": "周杰倫 Jay Chou【藍色風暴 Blue Storm】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664837740.5913
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【蘭亭序 Lan-Ting-Xu】-Official Music Video [s5Xl5MXboas].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E8%98%AD%E4%BA%AD%E5%BA%8F%20Lan-Ting-Xu%E3%80%91-Official%20Music%20Video%20%5Bs5Xl5MXboas%5D.mp3",
+      "title": "周杰倫 Jay Chou【蘭亭序 Lan-Ting-Xu】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664543045.3054
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【說好的幸福呢 The Promised Love】-Official Music Video [mLFhTFiX0uM].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E8%AA%AA%E5%A5%BD%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%91%A2%20The%20Promised%20Love%E3%80%91-Official%20Music%20Video%20%5BmLFhTFiX0uM%5D.mp3",
+      "title": "周杰倫 Jay Chou【說好的幸福呢 The Promised Love】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664977134.221
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【逆鱗 Against】-Official Music Video [jD0c4QY7L8s].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E9%80%86%E9%B1%97%20Against%E3%80%91-Official%20Music%20Video%20%5BjD0c4QY7L8s%5D.mp3",
+      "title": "周杰倫 Jay Chou【逆鱗 Against】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664866493.1873
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【青花瓷 Blue and White Porcelain】-Official Music Video [Z8Mqw0b9ADs].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E9%9D%92%E8%8A%B1%E7%93%B7%20Blue%20and%20White%20Porcelain%E3%80%91-Official%20Music%20Video%20%5BZ8Mqw0b9ADs%5D.mp3",
+      "title": "周杰倫 Jay Chou【青花瓷 Blue and White Porcelain】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664571382.682
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【髮如雪 Hair White as Snow】-Official Music Video [aaM7qG2ycjk].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E9%AB%AE%E5%A6%82%E9%9B%AA%20Hair%20White%20as%20Snow%E3%80%91-Official%20Music%20Video%20%5BaaM7qG2ycjk%5D.mp3",
+      "title": "周杰倫 Jay Chou【髮如雪 Hair White as Snow】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664693908.3208
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【麥芽糖 Malt Candy】-Official Music Video [Hq47d-ouX_Y].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E9%BA%A5%E8%8A%BD%E7%B3%96%20Malt%20Candy%E3%80%91-Official%20Music%20Video%20%5BHq47d-ouX_Y%5D.mp3",
+      "title": "周杰倫 Jay Chou【麥芽糖 Malt Candy】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664874738.0105
+    },
+    {
+      "id": "music:personal/周杰倫 Jay Chou【黑色毛衣 Black Sweater】-Official Music Video [bX33UI9ZPLk].mp3",
+      "src": "./music/personal/%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%E3%80%90%E9%BB%91%E8%89%B2%E6%AF%9B%E8%A1%A3%20Black%20Sweater%E3%80%91-Official%20Music%20Video%20%5BbX33UI9ZPLk%5D.mp3",
+      "title": "周杰倫 Jay Chou【黑色毛衣 Black Sweater】-Official Music Video",
+      "artist": "周杰倫 Jay Chou",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664844887.5242
+    },
+    {
+      "id": "music:personal/嘉賓 [Z7ITZTNHU00].mp3",
+      "src": "./music/personal/%E5%98%89%E8%B3%93%20%5BZ7ITZTNHU00%5D.mp3",
+      "title": "嘉賓",
+      "artist": "张远",
+      "album": "嘉賓",
+      "kind": "mp3",
+      "addedAt": 1790664749385.9207
+    },
+    {
+      "id": "music:personal/嚣张 [b-eKsbzMr6Q].mp3",
+      "src": "./music/personal/%E5%9A%A3%E5%BC%A0%20%5Bb-eKsbzMr6Q%5D.mp3",
+      "title": "嚣张",
+      "artist": "en",
+      "album": "嚣张",
+      "kind": "mp3",
+      "addedAt": 1790664685883.325
+    },
+    {
+      "id": "music:personal/失眠飞行（Insomnia Flight） [2CQMISflAPw].mp3",
+      "src": "./music/personal/%E5%A4%B1%E7%9C%A0%E9%A3%9E%E8%A1%8C%EF%BC%88Insomnia%20Flight%EF%BC%89%20%5B2CQMISflAPw%5D.mp3",
+      "title": "失眠飞行（Insomnia Flight）",
+      "artist": "接个吻，开一枪, 沈以誠, 薛黛霏",
+      "album": "失眠飞行（Insomnia Flight）",
+      "kind": "mp3",
+      "addedAt": 1790664716816.6655
+    },
+    {
+      "id": "music:personal/字字句句 [C5CvN3EmOB4].mp3",
+      "src": "./music/personal/%E5%AD%97%E5%AD%97%E5%8F%A5%E5%8F%A5%20%5BC5CvN3EmOB4%5D.mp3",
+      "title": "字字句句",
+      "artist": "卢卢快闭嘴",
+      "album": "字字句句",
+      "kind": "mp3",
+      "addedAt": 1790664737669.2393
+    },
+    {
+      "id": "music:personal/小城夏天 [iWnPpPjxmbw].mp3",
+      "src": "./music/personal/%E5%B0%8F%E5%9F%8E%E5%A4%8F%E5%A4%A9%20%5BiWnPpPjxmbw%5D.mp3",
+      "title": "小城夏天",
+      "artist": "LBI利比",
+      "album": "小城夏天",
+      "kind": "mp3",
+      "addedAt": 1790664562609.706
+    },
+    {
+      "id": "music:personal/感谢你曾来过 [kqL2jh06wsk].mp3",
+      "src": "./music/personal/%E6%84%9F%E8%B0%A2%E4%BD%A0%E6%9B%BE%E6%9D%A5%E8%BF%87%20%5BkqL2jh06wsk%5D.mp3",
+      "title": "感谢你曾来过",
+      "artist": "Ayo97, 阿涵",
+      "album": "感谢你曾来过",
+      "kind": "mp3",
+      "addedAt": 1790664614180.301
+    },
+    {
+      "id": "music:personal/我期待的不是雪 (而是有你的冬天) [vRIDqNxZlFY].mp3",
+      "src": "./music/personal/%E6%88%91%E6%9C%9F%E5%BE%85%E7%9A%84%E4%B8%8D%E6%98%AF%E9%9B%AA%20(%E8%80%8C%E6%98%AF%E6%9C%89%E4%BD%A0%E7%9A%84%E5%86%AC%E5%A4%A9)%20%5BvRIDqNxZlFY%5D.mp3",
+      "title": "我期待的不是雪 (而是有你的冬天)",
+      "artist": "张妙格",
+      "album": "我期待的不是雪 (而是有你的冬天)",
+      "kind": "mp3",
+      "addedAt": 1790664547189.4497
+    },
+    {
+      "id": "music:personal/承桓 - 我會等 歌詞 [7-eb0YnPf4Q].mp3",
+      "src": "./music/personal/%E6%89%BF%E6%A1%93%20-%20%E6%88%91%E6%9C%83%E7%AD%89%20%E6%AD%8C%E8%A9%9E%20%5B7-eb0YnPf4Q%5D.mp3",
+      "title": "承桓 - 我會等 歌詞",
+      "artist": "音樂歌詞MusicLyrics",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664598062.0242
+    },
+    {
+      "id": "music:personal/晚安 [romoX9qv87k].mp3",
+      "src": "./music/personal/%E6%99%9A%E5%AE%89%20%5BromoX9qv87k%5D.mp3",
+      "title": "晚安",
+      "artist": "颜人中",
+      "album": "晚安",
+      "kind": "mp3",
+      "addedAt": 1790664698808.8823
+    },
+    {
+      "id": "music:personal/李榮浩 Ronghao Li - 年少有為 If I Were Young (華納 Official HD 官方MV) [Dnj5Tcpev0Q].mp3",
+      "src": "./music/personal/%E6%9D%8E%E6%A6%AE%E6%B5%A9%20Ronghao%20Li%20-%20%E5%B9%B4%E5%B0%91%E6%9C%89%E7%82%BA%20If%20I%20Were%20Young%20(%E8%8F%AF%E7%B4%8D%20Official%20HD%20%E5%AE%98%E6%96%B9MV)%20%5BDnj5Tcpev0Q%5D.mp3",
+      "title": "李榮浩 Ronghao Li - 年少有為 If I Were Young (華納 Official HD 官方MV)",
+      "artist": "李榮浩 Ronghao Li",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665058932.878
+    },
+    {
+      "id": "music:personal/李玖哲 Nicky Lee-夏天 Summer-完整版MV [tLGgJLDk5kM].mp3",
+      "src": "./music/personal/%E6%9D%8E%E7%8E%96%E5%93%B2%20Nicky%20Lee-%E5%A4%8F%E5%A4%A9%20Summer-%E5%AE%8C%E6%95%B4%E7%89%88MV%20%5BtLGgJLDk5kM%5D.mp3",
+      "title": "李玖哲 Nicky Lee-夏天 Summer-完整版MV",
+      "artist": "MachiEntertainment",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664770796.8394
+    },
+    {
+      "id": "music:personal/林俊傑 JJ Lin - 修煉愛情 Practice Love (華納official 高畫質HD官方完整版MV) [LWV-f6dMN3Q].mp3",
+      "src": "./music/personal/%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin%20-%20%E4%BF%AE%E7%85%89%E6%84%9B%E6%83%85%20Practice%20Love%20(%E8%8F%AF%E7%B4%8Dofficial%20%E9%AB%98%E7%95%AB%E8%B3%AAHD%E5%AE%98%E6%96%B9%E5%AE%8C%E6%95%B4%E7%89%88MV)%20%5BLWV-f6dMN3Q%5D.mp3",
+      "title": "林俊傑 JJ Lin - 修煉愛情 Practice Love (華納official 高畫質HD官方完整版MV)",
+      "artist": "JJ Lin林俊傑",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665011616.4863
+    },
+    {
+      "id": "music:personal/林俊傑 JJ Lin - 可惜沒如果 If Only (華納 Official 高畫質 HD 官方劇情版 MV) [vsBf_0gDxSM].mp3",
+      "src": "./music/personal/%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin%20-%20%E5%8F%AF%E6%83%9C%E6%B2%92%E5%A6%82%E6%9E%9C%20If%20Only%20(%E8%8F%AF%E7%B4%8D%20Official%20%E9%AB%98%E7%95%AB%E8%B3%AA%20HD%20%E5%AE%98%E6%96%B9%E5%8A%87%E6%83%85%E7%89%88%20MV)%20%5BvsBf_0gDxSM%5D.mp3",
+      "title": "林俊傑 JJ Lin - 可惜沒如果 If Only (華納 Official 高畫質 HD 官方劇情版 MV)",
+      "artist": "JJ Lin林俊傑",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665021844.9421
+    },
+    {
+      "id": "music:personal/江南 [QUNcX9Z3Mqo].mp3",
+      "src": "./music/personal/%E6%B1%9F%E5%8D%97%20%5BQUNcX9Z3Mqo%5D.mp3",
+      "title": "江南",
+      "artist": "林俊傑",
+      "album": "第二天堂",
+      "kind": "mp3",
+      "addedAt": 1790665007554.6987
+    },
+    {
+      "id": "music:personal/江語晨 - 最後一頁 [GOaJH35DNLw].mp3",
+      "src": "./music/personal/%E6%B1%9F%E8%AA%9E%E6%99%A8%20-%20%E6%9C%80%E5%BE%8C%E4%B8%80%E9%A0%81%20%5BGOaJH35DNLw%5D.mp3",
+      "title": "江語晨 - 最後一頁",
+      "artist": "siueemily",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664671335.5447
+    },
+    {
+      "id": "music:personal/浪漫手機 [6Gse3_wBULE].mp3",
+      "src": "./music/personal/%E6%B5%AA%E6%BC%AB%E6%89%8B%E6%A9%9F%20%5B6Gse3_wBULE%5D.mp3",
+      "title": "浪漫手機",
+      "artist": "周杰倫",
+      "album": "11月的蕭邦",
+      "kind": "mp3",
+      "addedAt": 1790664857368.3525
+    },
+    {
+      "id": "music:personal/清空 [UB8btikqH1s].mp3",
+      "src": "./music/personal/%E6%B8%85%E7%A9%BA%20%5BUB8btikqH1s%5D.mp3",
+      "title": "清空",
+      "artist": "王忻辰, 苏星婕",
+      "album": "清空",
+      "kind": "mp3",
+      "addedAt": 1790664601717.8784
+    },
+    {
+      "id": "music:personal/白月光与朱砂痣 (中英文版) [oRd2uJF_wEs].mp3",
+      "src": "./music/personal/%E7%99%BD%E6%9C%88%E5%85%89%E4%B8%8E%E6%9C%B1%E7%A0%82%E7%97%A3%20(%E4%B8%AD%E8%8B%B1%E6%96%87%E7%89%88)%20%5BoRd2uJF_wEs%5D.mp3",
+      "title": "白月光与朱砂痣 (中英文版)",
+      "artist": "大籽, 嘿人李逵Noisemakers",
+      "album": "白月光与朱砂痣 (中英文版)",
+      "kind": "mp3",
+      "addedAt": 1790664554585.6248
+    },
+    {
+      "id": "music:personal/盛哲 - 在你的身边【我以为忘了想念】By Your Side (Official Lyric Video) [1hOfUcLaqxs].mp3",
+      "src": "./music/personal/%E7%9B%9B%E5%93%B2%20-%20%E5%9C%A8%E4%BD%A0%E7%9A%84%E8%BA%AB%E8%BE%B9%E3%80%90%E6%88%91%E4%BB%A5%E4%B8%BA%E5%BF%98%E4%BA%86%E6%83%B3%E5%BF%B5%E3%80%91By%20Your%20Side%20(Official%20Lyric%20Video)%20%5B1hOfUcLaqxs%5D.mp3",
+      "title": "盛哲 - 在你的身边【我以为忘了想念】By Your Side (Official Lyric Video)",
+      "artist": "盛哲 Jason Sheng",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664558029.6729
+    },
+    {
+      "id": "music:personal/紅色高跟鞋 [fKcxM0kWqWc].mp3",
+      "src": "./music/personal/%E7%B4%85%E8%89%B2%E9%AB%98%E8%B7%9F%E9%9E%8B%20%5BfKcxM0kWqWc%5D.mp3",
+      "title": "紅色高跟鞋",
+      "artist": "蔡健雅",
+      "album": "若你碰到他",
+      "kind": "mp3",
+      "addedAt": 1790664610127.5015
+    },
+    {
+      "id": "music:personal/聖徒 [D9HPxcbV-2k].mp3",
+      "src": "./music/personal/%E8%81%96%E5%BE%92%20%5BD9HPxcbV-2k%5D.mp3",
+      "title": "聖徒",
+      "artist": "周杰倫",
+      "album": "太陽之子",
+      "kind": "mp3",
+      "addedAt": 1790664916907.7615
+    },
+    {
+      "id": "music:personal/自娱自乐 [1bo-3bwu69E].mp3",
+      "src": "./music/personal/%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90%20%5B1bo-3bwu69E%5D.mp3",
+      "title": "自娱自乐",
+      "artist": "金志文",
+      "album": "自娱自乐",
+      "kind": "mp3",
+      "addedAt": 1790664526457.3403
+    },
+    {
+      "id": "music:personal/致你 [EOj_q-fCiWk].mp3",
+      "src": "./music/personal/%E8%87%B4%E4%BD%A0%20%5BEOj_q-fCiWk%5D.mp3",
+      "title": "致你",
+      "artist": "yihuik苡慧",
+      "album": "致你",
+      "kind": "mp3",
+      "addedAt": 1790664708130.8584
+    },
+    {
+      "id": "music:personal/菲道尔 & 大颖 - 在加納共和國離婚 Divorce in Ghana (Official Music Video) [wlSvIL-H1GQ].mp3",
+      "src": "./music/personal/%E8%8F%B2%E9%81%93%E5%B0%94%20%26%20%E5%A4%A7%E9%A2%96%20-%20%E5%9C%A8%E5%8A%A0%E7%B4%8D%E5%85%B1%E5%92%8C%E5%9C%8B%E9%9B%A2%E5%A9%9A%20Divorce%20in%20Ghana%20(Official%20Music%20Video)%20%5BwlSvIL-H1GQ%5D.mp3",
+      "title": "菲道尔 & 大颖 - 在加納共和國離婚 Divorce in Ghana (Official Music Video)",
+      "artist": "菲道尔 Firdhaus",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664659224.452
+    },
+    {
+      "id": "music:personal/菲道尔Firdhaus - 人生，起起落落落落落？ Up & Down (Official Music Video) [Ca79uRFu5Co].mp3",
+      "src": "./music/personal/%E8%8F%B2%E9%81%93%E5%B0%94Firdhaus%20-%20%E4%BA%BA%E7%94%9F%EF%BC%8C%E8%B5%B7%E8%B5%B7%E8%90%BD%E8%90%BD%E8%90%BD%E8%90%BD%E8%90%BD%EF%BC%9F%20Up%20%26%20Down%20(Official%20Music%20Video)%20%5BCa79uRFu5Co%5D.mp3",
+      "title": "菲道尔Firdhaus - 人生，起起落落落落落? Up & Down (Official Music Video)",
+      "artist": "菲道尔 Firdhaus",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664586057.416
+    },
+    {
+      "id": "music:personal/落日与晚风 [qxsb0CDrWAg].mp3",
+      "src": "./music/personal/%E8%90%BD%E6%97%A5%E4%B8%8E%E6%99%9A%E9%A3%8E%20%5Bqxsb0CDrWAg%5D.mp3",
+      "title": "落日与晚风",
+      "artist": "苏星婕, In K, 王忻辰",
+      "album": "落日与晚风",
+      "kind": "mp3",
+      "addedAt": 1790664503280.6787
+    },
+    {
+      "id": "music:personal/蒲公英的約定 [O3UxZrf0AAk].mp3",
+      "src": "./music/personal/%E8%92%B2%E5%85%AC%E8%8B%B1%E7%9A%84%E7%B4%84%E5%AE%9A%20%5BO3UxZrf0AAk%5D.mp3",
+      "title": "蒲公英的約定",
+      "artist": "周杰倫",
+      "album": "我很忙",
+      "kind": "mp3",
+      "addedAt": 1790664981284.0212
+    },
+    {
+      "id": "music:personal/蔡健雅 Tanya Chua - Letting Go 官方MV完整放映 [116OjLa1DwY].mp3",
+      "src": "./music/personal/%E8%94%A1%E5%81%A5%E9%9B%85%20Tanya%20Chua%20-%20Letting%20Go%20%E5%AE%98%E6%96%B9MV%E5%AE%8C%E6%95%B4%E6%94%BE%E6%98%A0%20%5B116OjLa1DwY%5D.mp3",
+      "title": "蔡健雅 Tanya Chua - Letting Go 官方MV完整放映",
+      "artist": "蔡健雅 Tanya Chua",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664633806.1829
+    },
+    {
+      "id": "music:personal/薛之謙 Joker Xue《天外來物》Official Music Video [SfE6cG4KfHA].mp3",
+      "src": "./music/personal/%E8%96%9B%E4%B9%8B%E8%AC%99%20Joker%20Xue%E3%80%8A%E5%A4%A9%E5%A4%96%E4%BE%86%E7%89%A9%E3%80%8BOfficial%20Music%20Video%20%5BSfE6cG4KfHA%5D.mp3",
+      "title": "薛之謙 Joker Xue《天外來物》Official Music Video",
+      "artist": "薛之謙 JokerXue",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664784391.228
+    },
+    {
+      "id": "music:personal/西西里 [QoXDQa9L12A].mp3",
+      "src": "./music/personal/%E8%A5%BF%E8%A5%BF%E9%87%8C%20%5BQoXDQa9L12A%5D.mp3",
+      "title": "西西里",
+      "artist": "周杰倫",
+      "album": "太陽之子",
+      "kind": "mp3",
+      "addedAt": 1790664894958.4785
+    },
+    {
+      "id": "music:personal/请先说你好 [dEN9USDYUYE].mp3",
+      "src": "./music/personal/%E8%AF%B7%E5%85%88%E8%AF%B4%E4%BD%A0%E5%A5%BD%20%5BdEN9USDYUYE%5D.mp3",
+      "title": "请先说你好",
+      "artist": "贺一航, Peter-潘, 宋普照",
+      "album": "请先说你好",
+      "kind": "mp3",
+      "addedAt": 1790664796772.466
+    },
+    {
+      "id": "music:personal/逃跑计划Escape Plan - 夜空中最亮的星Brightest Star In The Night Sky [fzuy63eCUKc].mp3",
+      "src": "./music/personal/%E9%80%83%E8%B7%91%E8%AE%A1%E5%88%92Escape%20Plan%20-%20%E5%A4%9C%E7%A9%BA%E4%B8%AD%E6%9C%80%E4%BA%AE%E7%9A%84%E6%98%9FBrightest%20Star%20In%20The%20Night%20Sky%20%5Bfzuy63eCUKc%5D.mp3",
+      "title": "逃跑计划Escape Plan - 夜空中最亮的星Brightest Star In The Night Sky",
+      "artist": "Weiyi",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664605958.695
+    },
+    {
+      "id": "music:personal/那天下雨了 [lNCQbx-y9V8].mp3",
+      "src": "./music/personal/%E9%82%A3%E5%A4%A9%E4%B8%8B%E9%9B%A8%E4%BA%86%20%5BlNCQbx-y9V8%5D.mp3",
+      "title": "那天下雨了",
+      "artist": "周杰倫",
+      "album": "太陽之子",
+      "kind": "mp3",
+      "addedAt": 1790664808950.603
+    },
+    {
+      "id": "music:personal/那女孩对我说 [qQP5rq-yZ2E].mp3",
+      "src": "./music/personal/%E9%82%A3%E5%A5%B3%E5%AD%A9%E5%AF%B9%E6%88%91%E8%AF%B4%20%5BqQP5rq-yZ2E%5D.mp3",
+      "title": "那女孩对我说",
+      "artist": "Uu",
+      "album": "那女孩对我说",
+      "kind": "mp3",
+      "addedAt": 1790664703306.368
+    },
+    {
+      "id": "music:personal/银河与星斗－yihuik苡慧 [6FTKukReb94].mp3",
+      "src": "./music/personal/%E9%93%B6%E6%B2%B3%E4%B8%8E%E6%98%9F%E6%96%97%EF%BC%8Dyihuik%E8%8B%A1%E6%85%A7%20%5B6FTKukReb94%5D.mp3",
+      "title": "银河与星斗－yihuik苡慧",
+      "artist": "MWorld Channel",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664745802.7268
+    },
+    {
+      "id": "music:personal/阿冗 - 與我無關【動態歌詞】「望眼欲穿 等不到你的晚安」♪ [8tuzFSXeKI0].mp3",
+      "src": "./music/personal/%E9%98%BF%E5%86%97%20-%20%E8%88%87%E6%88%91%E7%84%A1%E9%97%9C%E3%80%90%E5%8B%95%E6%85%8B%E6%AD%8C%E8%A9%9E%E3%80%91%E3%80%8C%E6%9C%9B%E7%9C%BC%E6%AC%B2%E7%A9%BF%20%E7%AD%89%E4%B8%8D%E5%88%B0%E4%BD%A0%E7%9A%84%E6%99%9A%E5%AE%89%E3%80%8D%E2%99%AA%20%5B8tuzFSXeKI0%5D.mp3",
+      "title": "阿冗 - 與我無關【動態歌詞】「望眼欲穿 等不到你的晚安」♪",
+      "artist": "Angelic Music World",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664651276.0212
+    },
+    {
+      "id": "music:personal/陈村长 - 爱怎么了 [Official Music Video] [MiUoosJO_XI].mp3",
+      "src": "./music/personal/%E9%99%88%E6%9D%91%E9%95%BF%20-%20%E7%88%B1%E6%80%8E%E4%B9%88%E4%BA%86%20%5BOfficial%20Music%20Video%5D%20%5BMiUoosJO_XI%5D.mp3",
+      "title": "陈村长 - 爱怎么了 [Official Music Video]",
+      "artist": "陈村长",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664646763.334
+    },
+    {
+      "id": "music:personal/静悄悄 [j-mV58nAuh8].mp3",
+      "src": "./music/personal/%E9%9D%99%E6%82%84%E6%82%84%20%5Bj-mV58nAuh8%5D.mp3",
+      "title": "静悄悄",
+      "artist": "大泫",
+      "album": "静悄悄",
+      "kind": "mp3",
+      "addedAt": 1790664762888.546
+    },
+    {
+      "id": "music:personal/韋禮安 Weibird Wei - 女孩 Girl (官方版MV) - 2015 韋禮安「放開那女孩 Free That Girl」小巨蛋演唱會求愛主題曲、衛視中文台戲劇「長不大的爸爸」片頭曲 [ZPALMaXLfIw].mp3",
+      "src": "./music/personal/%E9%9F%8B%E7%A6%AE%E5%AE%89%20Weibird%20Wei%20-%20%E5%A5%B3%E5%AD%A9%20Girl%20(%E5%AE%98%E6%96%B9%E7%89%88MV)%20-%202015%20%E9%9F%8B%E7%A6%AE%E5%AE%89%E3%80%8C%E6%94%BE%E9%96%8B%E9%82%A3%E5%A5%B3%E5%AD%A9%20Free%20That%20Girl%E3%80%8D%E5%B0%8F%E5%B7%A8%E8%9B%8B%E6%BC%94%E5%94%B1%E6%9C%83%E6%B1%82%E6%84%9B%E4%B8%BB%E9%A1%8C%E6%9B%B2%E3%80%81%E8%A1%9B%E8%A6%96%E4%B8%AD%E6%96%87%E5%8F%B0%E6%88%B2%E5%8A%87%E3%80%8C%E9%95%B7%E4%B8%8D%E5%A4%A7%E7%9A%84%E7%88%B8%E7%88%B8%E3%80%8D%E7%89%87%E9%A0%AD%E6%9B%B2%20%5BZPALMaXLfIw%5D.mp3",
+      "title": "韋禮安 Weibird Wei - 女孩 Girl (官方版MV) - 2015 韋禮安「放開那女孩 Free That Girl」小巨蛋演唱會求愛主題曲、衛視中文台戲劇「長不大的爸爸」片頭曲",
+      "artist": "福茂唱片",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790664774977.9739
+    },
+    {
+      "id": "music:personal/韋禮安 WeiBird《如果可以 Red Scarf》MV - 電影「月老」主題曲導演親剪音樂視角版 [8MG--WuNW1Y].mp3",
+      "src": "./music/personal/%E9%9F%8B%E7%A6%AE%E5%AE%89%20WeiBird%E3%80%8A%E5%A6%82%E6%9E%9C%E5%8F%AF%E4%BB%A5%20Red%20Scarf%E3%80%8BMV%20-%20%E9%9B%BB%E5%BD%B1%E3%80%8C%E6%9C%88%E8%80%81%E3%80%8D%E4%B8%BB%E9%A1%8C%E6%9B%B2%E5%B0%8E%E6%BC%94%E8%A6%AA%E5%89%AA%E9%9F%B3%E6%A8%82%E8%A6%96%E8%A7%92%E7%89%88%20%5B8MG--WuNW1Y%5D.mp3",
+      "title": "韋禮安 WeiBird《如果可以 Red Scarf》MV - 電影「月老」主題曲導演親剪音樂視角版",
+      "artist": "韋禮安 WeiBird",
+      "album": "personal",
+      "kind": "mp3",
+      "addedAt": 1790665049934.3909
+    },
+    {
+      "id": "music:personal/飄移 [UGxJyQKYuas].mp3",
+      "src": "./music/personal/%E9%A3%84%E7%A7%BB%20%5BUGxJyQKYuas%5D.mp3",
+      "title": "飄移",
+      "artist": "周杰倫",
+      "album": "11月的蕭邦",
+      "kind": "mp3",
+      "addedAt": 1790664879333.9014
+    }
+  ],
+  "playlists": [
+    {
+      "id": "folder:lofi",
+      "name": "lofi",
+      "trackIds": [
+        "music:lofi/5_32pm [6ustyT4Kx-g].mp3",
+        "music:lofi/Saib - Sakura Trees [Chill Hop] [Xa5_zuBVVQE].mp3",
+        "music:lofi/Limes - Jovial [dP5z942m7Qs].mp3",
+        "music:lofi/elijah who - this girl [aksnDuHI9To].mp3",
+        "music:lofi/The Deli - Flowers [4xmaM2DsudI].mp3",
+        "music:lofi/Getsomerest⧸sleepwell [lZq4UDKja24].mp3",
+        "music:lofi/Egyptian Pools [kPgSfyAFkEI].mp3",
+        "music:lofi/affection [NAkZ8gUXcIE].mp3",
+        "music:lofi/RŮDE - Eternal Youth [3uXHaVENo6E].mp3",
+        "music:lofi/Elijah Who - my new love [9A_RAY8lXVE].mp3",
+        "music:lofi/Again [gEf-lKXY_uw].mp3",
+        "music:lofi/eery - Her [riI6w_1ULTg].mp3",
+        "music:lofi/in love with a ghost ｜ we've never met but, can we have a coffee or something？ [0XZJ5mD6nSU].mp3",
+        "music:lofi/Idealism - Both Of Us [Djz-AXDO27Q].mp3",
+        "music:lofi/sincerely, yours [ sophie meiers x nohidea ] [mlsOwYQgqAo].mp3",
+        "music:lofi/eevee - viola [mIqAMVq-IXU].mp3",
+        "music:lofi/sleepdealer - rolling papers [9tJbAr5Sv0Q].mp3",
+        "music:lofi/90sFlav - Call me [VLtSCBSaCIQ].mp3",
+        "music:lofi/The Girl I Haven't Met [Ggddxkj8tU0].mp3",
+        "music:lofi/o k h o -  long espresso [q4je4mf9FUs].mp3",
+        "music:lofi/Monday Loop [0-gJSbiLkgA].mp3",
+        "music:lofi/sagun - I'll Keep You Safe (feat. Shiloh) [7ly7Mhle-4M].mp3",
+        "music:lofi/aruarian dance [qYcoJpqCha4].mp3",
+        "music:lofi/J Dilla - Time： The Donut of the Heart - Donuts (Full Album) [c6qOBFkvdG0].mp3",
+        "music:lofi/Luv Letter [U7LgZFULBfg].mp3",
+        "music:lofi/First Snow [MwisdkhGQXM].mp3",
+        "music:lofi/Idealism - Snowfall [o2k1OckoOso].mp3"
+      ]
+    },
+    {
+      "id": "folder:personal",
+      "name": "personal",
+      "trackIds": [
+        "music:personal/J.Tajor - Like I Do (Official Music Video) [MW79zgnSF40].mp3",
+        "music:personal/Lil Ghost小鬼 - 王琳凯 - GOOD NIGHT [a_ELq3dTKYA].mp3",
+        "music:personal/落日与晚风 [qxsb0CDrWAg].mp3",
+        "music:personal/Will Pan (潘瑋柏) ft. Angela Chang (張韶涵) - 快樂崇拜 Happy Worship (OT： Come On) [E1-ZqU0q4ZE].mp3",
+        "music:personal/周杰倫 Jay Chou【夜曲 Nocturne】-Official Music Video [6Q0Pd53mojY].mp3",
+        "music:personal/自娱自乐 [1bo-3bwu69E].mp3",
+        "music:personal/Kentaro - 空唄 (feat.汐菜) Official Lyric Video [I8HYN3WsuOQ].mp3",
+        "music:personal/周杰倫 Jay Chou【蘭亭序 Lan-Ting-Xu】-Official Music Video [s5Xl5MXboas].mp3",
+        "music:personal/我期待的不是雪 (而是有你的冬天) [vRIDqNxZlFY].mp3",
+        "music:personal/Jumping Machine (跳楼机) [TOC78RUj8pg].mp3",
+        "music:personal/白月光与朱砂痣 (中英文版) [oRd2uJF_wEs].mp3",
+        "music:personal/盛哲 - 在你的身边【我以为忘了想念】By Your Side (Official Lyric Video) [1hOfUcLaqxs].mp3",
+        "music:personal/小城夏天 [iWnPpPjxmbw].mp3",
+        "music:personal/周杰倫 Jay Chou【青花瓷 Blue and White Porcelain】-Official Music Video [Z8Mqw0b9ADs].mp3",
+        "music:personal/J.Sheon - Don't Ask 別問很可怕 (Official Music Video) [tRa3fOlnN7k].mp3",
+        "music:personal/光良 Michael Wong【童話】Official Music Video [bBcp_ljCBGU].mp3",
+        "music:personal/菲道尔Firdhaus - 人生，起起落落落落落？ Up & Down (Official Music Video) [Ca79uRFu5Co].mp3",
+        "music:personal/【打火机】Lighter Official Music Video-Penny [HOp8wvUoXH4].mp3",
+        "music:personal/承桓 - 我會等 歌詞 [7-eb0YnPf4Q].mp3",
+        "music:personal/清空 [UB8btikqH1s].mp3",
+        "music:personal/逃跑计划Escape Plan - 夜空中最亮的星Brightest Star In The Night Sky [fzuy63eCUKc].mp3",
+        "music:personal/紅色高跟鞋 [fKcxM0kWqWc].mp3",
+        "music:personal/感谢你曾来过 [kqL2jh06wsk].mp3",
+        "music:personal/Kimberley陳芳語《愛你AINI》Official MV(HD) [KGrulNiJ6Uc].mp3",
+        "music:personal/蔡健雅 Tanya Chua - Letting Go 官方MV完整放映 [116OjLa1DwY].mp3",
+        "music:personal/周杰倫 Jay Chou【晴天 Sunny Day】-Official Music Video [DYptgVvkVLQ].mp3",
+        "music:personal/陈村长 - 爱怎么了 [Official Music Video] [MiUoosJO_XI].mp3",
+        "music:personal/阿冗 - 與我無關【動態歌詞】「望眼欲穿 等不到你的晚安」♪ [8tuzFSXeKI0].mp3",
+        "music:personal/菲道尔 & 大颖 - 在加納共和國離婚 Divorce in Ghana (Official Music Video) [wlSvIL-H1GQ].mp3",
+        "music:personal/江語晨 - 最後一頁 [GOaJH35DNLw].mp3",
+        "music:personal/G.E.M.【多遠都要在一起 LONG DISTANCE】Official MV [HD] 鄧紫棋 [D9ksLn6hZ7Q].mp3",
+        "music:personal/嚣张 [b-eKsbzMr6Q].mp3",
+        "music:personal/周杰倫 Jay Chou【髮如雪 Hair White as Snow】-Official Music Video [aaM7qG2ycjk].mp3",
+        "music:personal/晚安 [romoX9qv87k].mp3",
+        "music:personal/那女孩对我说 [qQP5rq-yZ2E].mp3",
+        "music:personal/致你 [EOj_q-fCiWk].mp3",
+        "music:personal/倫桑《答案》傷感男聲版 - 愛就像藍天白雲，晴空萬里，突然暴風雨【抖音熱門 - 動態歌詞版】 [tRVcQqkFVfc].mp3",
+        "music:personal/失眠飞行（Insomnia Flight） [2CQMISflAPw].mp3",
+        "music:personal/侧脸 [wK6-7ipVpwE].mp3",
+        "music:personal/从前说 [SmpPd6EMWEg].mp3",
+        "music:personal/《像极了》永彬RYAN.B [full version] ｜｜ Lyrics by @LZHOU [8q_b_fXazOo].mp3",
+        "music:personal/告五人 Accusefive【帶我去找夜生活 Night life.Take us to the light】Official Music Video [W9Fq1HC_5hg].mp3",
+        "music:personal/字字句句 [C5CvN3EmOB4].mp3",
+        "music:personal/银河与星斗－yihuik苡慧 [6FTKukReb94].mp3",
+        "music:personal/嘉賓 [Z7ITZTNHU00].mp3",
+        "music:personal/听说你 [Zg71bCpy5ew].mp3",
+        "music:personal/你的答案 [Tziswp8xQ_4].mp3",
+        "music:personal/静悄悄 [j-mV58nAuh8].mp3",
+        "music:personal/李玖哲 Nicky Lee-夏天 Summer-完整版MV [tLGgJLDk5kM].mp3",
+        "music:personal/韋禮安 Weibird Wei - 女孩 Girl (官方版MV) - 2015 韋禮安「放開那女孩 Free That Girl」小巨蛋演唱會求愛主題曲、衛視中文台戲劇「長不大的爸爸」片頭曲 [ZPALMaXLfIw].mp3",
+        "music:personal/G.E.M.【再見 GOODBYE】Official MV [HD] 鄧紫棋 [Lhel0tzHE08].mp3",
+        "music:personal/薛之謙 Joker Xue《天外來物》Official Music Video [SfE6cG4KfHA].mp3",
+        "music:personal/BINGBIAN病变 (女声版) [goAiLy0D3kc].mp3",
+        "music:personal/G.E.M. 鄧紫棋 - 喜歡你 Official MV [HD] [4OqXWzekVw4].mp3",
+        "music:personal/请先说你好 [dEN9USDYUYE].mp3",
+        "music:personal/周杰倫 Jay Chou【擱淺 Step Aside】-Official Music Video [YJfHuATJYsQ].mp3",
+        "music:personal/那天下雨了 [lNCQbx-y9V8].mp3",
+        "music:personal/周杰倫 Jay Chou【珊瑚海 Coral Sea (feat. 梁心頤 Lara)】-Official Music Video [kYhh1PpsOg4].mp3",
+        "music:personal/周杰倫 Jay Chou【楓Maple Leaf 】-Official Music Video [qzwsQTY-99o].mp3",
+        "music:personal/Jay Chou 周杰倫【Aurora in July 七月的極光】Official Music Video [PJyFND4-zR4].mp3",
+        "music:personal/周杰倫 Jay Chou【藍色風暴 Blue Storm】-Official Music Video [P7ItYKdY0WU].mp3",
+        "music:personal/周杰倫 Jay Chou【黑色毛衣 Black Sweater】-Official Music Video [bX33UI9ZPLk].mp3",
+        "music:personal/周杰倫 Jay Chou【四面楚歌 Surrounded】-Official Music Video [JljURsMOLmc].mp3",
+        "music:personal/浪漫手機 [6Gse3_wBULE].mp3",
+        "music:personal/周杰倫 Jay Chou【逆鱗 Against】-Official Music Video [jD0c4QY7L8s].mp3",
+        "music:personal/周杰倫 Jay Chou【麥芽糖 Malt Candy】-Official Music Video [Hq47d-ouX_Y].mp3",
+        "music:personal/飄移 [UGxJyQKYuas].mp3",
+        "music:personal/一路向北 [Qq2ix2BewvA].mp3",
+        "music:personal/Jay Chou 周杰倫【Children of the Sun 太陽之子】Official Music Video [Hgnpi3eBQ9o].mp3",
+        "music:personal/西西里 [QoXDQa9L12A].mp3",
+        "music:personal/JAY CHOU周杰倫 新專輯 【太陽之子】- 04 湘女多情 [FVsDR0U09to].mp3",
+        "music:personal/Jay Chou 周杰倫【Who Cares 誰稀罕】Official Music Video [a7ziV-RjqBo].mp3",
+        "music:personal/Jay Chou 周杰倫【Aegean Sea 愛琴海】Official Music Video [ZLldhJXp7iw].mp3",
+        "music:personal/Jay Chou 周杰倫【I Do】Official Music Video [wIgduzASI6A].mp3",
+        "music:personal/聖徒 [D9HPxcbV-2k].mp3",
+        "music:personal/Jay Chou 周杰倫【My Daughter, Your Highness女兒殿下】Official Music Video [aGsrg1NO1cM].mp3",
+        "music:personal/Jay Chou 周杰倫【Gold Rush Town 淘金小鎮】Official Music Video [SW3OQ0ijUCI].mp3",
+        "music:personal/Jay Chou 周杰倫【Country Road 鄉間的路】Official Music Video [XAhKFiPqGRQ].mp3",
+        "music:personal/周杰倫 JAY CHOU (feat. 楊瑞代) 【聖誕星 Christmas Star】Official MV [IXuhdnB2dAY].mp3",
+        "music:personal/Regina Spektor - Becoming All Alone [Official Lyric Video] [Nh17jXzgI1E].mp3",
+        "music:personal/周杰倫 Jay Chou【稻香 Rice Field】-Official Music Video [sHD_z90ZKV0].mp3",
+        "music:personal/周杰倫 Jay Chou【七里香 Orange Jasmine】-Official Music Video [Bbp9ZaJD_eA].mp3",
+        "music:personal/周杰倫 Jay Chou【簡單愛 Simple Love】Official MV [Y4xCVlyCvX4].mp3",
+        "music:personal/周杰倫 Jay Chou (特別演出： 派偉俊)【告白氣球 Love Confession】Official MV [bu7nU9Mhpyo].mp3",
+        "music:personal/周杰倫 Jay Chou【說好的幸福呢 The Promised Love】-Official Music Video [mLFhTFiX0uM].mp3",
+        "music:personal/蒲公英的約定 [O3UxZrf0AAk].mp3",
+        "music:personal/周杰倫 Jay Chou【安靜 Silence】Official MV [1hI-7vj2FhE].mp3",
+        "music:personal/周杰倫 Jay Chou【花海 Floral Sea】-Official Music Video [q1ww6bDjfiI].mp3",
+        "music:personal/江南 [QUNcX9Z3Mqo].mp3",
+        "music:personal/林俊傑 JJ Lin - 修煉愛情 Practice Love (華納official 高畫質HD官方完整版MV) [LWV-f6dMN3Q].mp3",
+        "music:personal/林俊傑 JJ Lin - 可惜沒如果 If Only (華納 Official 高畫質 HD 官方劇情版 MV) [vsBf_0gDxSM].mp3",
+        "music:personal/Eric周興哲《永不失聯的愛 Unbreakable Love》『原創概念版』Official Music Video 《小妖的金色城堡》主題曲 [WJK8486VjfU].mp3",
+        "music:personal/Eric周興哲《你，好不好？ How Have You Been？》Official Music Video《遺憾拼圖》片尾曲 [wSBXfzgqHtE].mp3",
+        "music:personal/G.E.M.【光年之外 LIGHT YEARS AWAY 】MV (電影《太空潛航者 Passengers》中文主題曲) [HD] 鄧紫棋 [T4SimnaiktU].mp3",
+        "music:personal/告五人 Accusefive 【愛人錯過 Somewhere in time】Official Music Video [6D79CYTxvOM].mp3",
+        "music:personal/韋禮安 WeiBird《如果可以 Red Scarf》MV - 電影「月老」主題曲導演親剪音樂視角版 [8MG--WuNW1Y].mp3",
+        "music:personal/李榮浩 Ronghao Li - 年少有為 If I Were Young (華納 Official HD 官方MV) [Dnj5Tcpev0Q].mp3"
+      ]
+    },
+    {
+      "id": "folder:pop",
+      "name": "pop",
+      "trackIds": [
+        "music:pop/Carly Rae Jepsen - Call Me Maybe [fWNaR-rxAic].mp3",
+        "music:pop/Taylor Swift - You Belong With Me [VuNIsY6JdUw].mp3",
+        "music:pop/Katy Perry - Teenage Dream (Official Music Video) [98WtmW-lfeE].mp3",
+        "music:pop/Ke$ha - TiK ToK (Official HD Video) [iP6XpLQM2Cs].mp3",
+        "music:pop/Lady Gaga - Bad Romance (Official Music Video) [qrO4YZeyl0I].mp3",
+        "music:pop/Britney Spears - Toxic (Official HD Video) [LOZuxwVk7TU].mp3",
+        "music:pop/Miley Cyrus - Party In The U.S.A. (Official Video) [M11SvDtPBhA].mp3",
+        "music:pop/One Direction - What Makes You Beautiful (Official Video) [QJO3ROT-A4E].mp3",
+        "music:pop/Justin Bieber - Baby ft. Ludacris [kffacxfA7G4].mp3",
+        "music:pop/Selena Gomez & The Scene - Love You Like A Love Song [EgT_us6AsDg].mp3",
+        "music:pop/Ariana Grande - Into You (Official Video) [1ekZEVeXwek].mp3",
+        "music:pop/Demi Lovato - Give Your Heart a Break (Official Video) [1zfzka5VwRc].mp3",
+        "music:pop/Rihanna - We Found Love ft. Calvin Harris [tg00YEETFzg].mp3",
+        "music:pop/Nicki Minaj - Starships (Explicit) (Official Video) [SeIJmciN8mo].mp3",
+        "music:pop/Pitbull, Ke$ha - Timber (featuring Ke$ha - Official Video) [hHUbLv4ThOo].mp3",
+        "music:pop/Flo Rida - Low (feat. T-Pain) [Official Video] [U2waT9TxPU0].mp3",
+        "music:pop/Taio Cruz - Dynamite (Official Video) [VUjdiDeJ0xg].mp3",
+        "music:pop/DJ Got Us Fallin' In Love [u4Fur5wRLyc].mp3",
+        "music:pop/ABBA - Dancing Queen (Official Music Video) [xFrGuyw1V8s].mp3",
+        "music:pop/Natasha Bedingfield - Unwritten (Official Video) (as featured in Anyone But You) [b7k0a5hYnSI].mp3",
+        "music:pop/Avril Lavigne - Girlfriend (Official Video) [Bg59q4puhmg].mp3",
+        "music:pop/P!nk - Raise Your Glass (Official Video) [XjVNlG5cZyQ].mp3",
+        "music:pop/Taylor Swift - Love Story [8xg3vE8Ie_E].mp3",
+        "music:pop/Katy Perry - California Gurls (Official Music Video) ft. Snoop Dogg [F57P9C4SAW4].mp3",
+        "music:pop/Carly Rae Jepsen - Cut To The Feeling [o97_jDomyqc].mp3",
+        "music:pop/Dua Lipa - Levitating (Official Lyrics Video) [WHuBW3qKm9g].mp3",
+        "music:pop/Olivia Rodrigo - good 4 u (Official Video) [gNi_6U5Pm_o].mp3",
+        "music:pop/Sabrina Carpenter - Espresso [eVli-tstM5E].mp3",
+        "music:pop/Chappell Roan - HOT TO GO! (Official Music Video) [xaPNR-_Cfn0].mp3"
+      ]
+    }
+  ]
 }

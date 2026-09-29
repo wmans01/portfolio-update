@@ -15,7 +15,7 @@ Open <http://localhost:5173/ltp>. The command updates `library.json` before star
 
 ## Add music and deploy
 
-Put `.mp3` or `.mp4` files in `music/`; subfolders are allowed. The player reads MP3 title, artist, and album tags when available. Otherwise it uses a filename such as `Artist - Title.mp3` and the parent folder as the album. For MP4 files it uses the filename. Playback of MP4 audio depends on the browser supporting the file's codec.
+Put `.mp3` or `.mp4` files in `music/`. Each top-level subfolder becomes a built-in playlist in Library; the current folders are `lofi`, `personal`, and `pop`. A folder's `downloaded.txt` sets playlist order when its media IDs appear in filenames such as `Song [video-id].mp3`; remaining songs follow in filename order. These built-in playlists reflect the files on the site, while playlists created in the player remain local to each visitor's browser. The player reads MP3 title, artist, and album tags when available. Otherwise it uses a filename such as `Artist - Title.mp3` and the parent folder as the album. For MP4 files it uses the filename. Playback of MP4 audio depends on the browser supporting the file's codec.
 
 After adding or changing files during development, run this from the portfolio root to refresh the library index:
 
@@ -31,4 +31,4 @@ Open **Uploads** to add MP3 and MP4 files from a visitor's device. Drag-and-drop
 
 The central player has play/pause, skip, shuffle, repeat, seek, volume, and speed controls. Open **Library**, **Uploads**, or **Queue** from the top bar. The queue can be reordered with its move buttons. Song menus let you add tracks to playlists or the queue, move playlist tracks, and remove uploads. Press Space to play or pause, left/right arrows to seek five seconds, `M` to mute, and `/` to search in an open Library or Uploads menu. Media keys work where supported.
 
-Open **Settings** for the theme and Visuals toggle. The record and audio spectrum appear only when Visuals are enabled. Animation runs only while music plays and the page is visible, and respects reduced-motion settings. The Jeremp0 theme uses `rgb(242, 239, 224)` as its page background and `rgb(36, 128, 115)` as its accent.
+Open **Settings** to change the theme. The audio spectrum stays above the player and animates only while music plays and the page is visible; it respects reduced-motion settings. If a file cannot play, the player skips it and continues through the queue. The Jeremp0 theme uses `rgb(242, 239, 224)` as its page background and `rgb(36, 128, 115)` as its accent.

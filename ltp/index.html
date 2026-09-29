@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./styles.css" />
   <script type="module" src="./src/app.js"></script>
 </head>
-<body data-theme="jeremp0" data-visuals="off">
+<body data-theme="jeremp0">
   <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5Z" fill="currentColor" stroke="none"/></symbol>
     <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" stroke="none"/></symbol>
@@ -45,13 +45,12 @@
         <div class="settings-menu" id="settings-menu" hidden>
           <h2>Settings</h2>
           <label class="settings-field" for="theme-select"><span>Theme</span><select id="theme-select"><option value="jeremp0">Jeremp0</option><option value="gruvbox">Gruvbox</option><option value="gruvbox-light">Gruvbox Light</option></select></label>
-          <label class="settings-field switch-field" for="visual-toggle"><span>Visuals</span><input id="visual-toggle" type="checkbox" role="switch"/><span class="switch-track" aria-hidden="true"></span></label>
         </div>
       </div>
     </header>
     <main class="main-stage">
       <section class="player" aria-label="Music player">
-        <div class="visual-stage" id="visual-stage" aria-hidden="true"><div class="visual-glow"></div><div class="vinyl" id="vinyl"><div class="vinyl-label"><i></i></div></div><canvas id="visualizer"></canvas></div>
+        <div class="visual-stage" aria-hidden="true"><canvas id="visualizer"></canvas></div>
         <div class="track-heading"><span class="now-label">NOW PLAYING</span><h1 id="now-title">No track selected</h1><p id="now-artist">Open Library or Uploads to start</p></div>
         <div class="progress-block"><input id="seek" type="range" min="0" max="1000" value="0" aria-label="Seek position"/><div class="time-labels"><span id="elapsed">0:00</span><span id="duration">0:00</span></div></div>
         <div class="transport"><button class="icon-button transport-side" id="shuffle" aria-label="Shuffle" aria-pressed="false" title="Shuffle"><svg><use href="#i-shuffle"/></svg></button><button class="icon-button transport-skip" id="previous" aria-label="Previous track" title="Previous track"><svg><use href="#i-prev"/></svg></button><button class="play-button" id="play-pause" aria-label="Play" title="Play"><svg><use href="#i-play"/></svg></button><button class="icon-button transport-skip" id="next" aria-label="Next track" title="Next track"><svg><use href="#i-next"/></svg></button><button class="icon-button transport-side" id="repeat" aria-label="Repeat off" title="Repeat off"><svg><use href="#i-repeat"/></svg><span id="repeat-one">1</span></button></div>
