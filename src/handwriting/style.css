@@ -1,0 +1,36 @@
+.ink-page { width: min(1240px, 100%); box-sizing: border-box; margin: auto; padding: 24px 32px; text-align: left; color-scheme: light; }
+.ink-nav { display: flex; justify-content: space-between; font-size: 13px; }
+.ink-header { text-align: center; margin: 45px 0 42px; }
+.ink-header h1 { font-size: clamp(58px, 8vw, 84px); line-height: 1; margin: 24px 0 16px; }
+.ink-workspace { display: grid; grid-template-columns: minmax(280px, .85fr) minmax(0, 1.15fr); gap: 40px; align-items: start; }
+.ink-editor-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 12px 0 24px; }
+.ink-editor-meta .ink-note { margin: 0; }
+#ink-count, #ink-pages { font-size: 10px; white-space: nowrap; }
+.ink-settings summary { width: fit-content; cursor: pointer; color: #087577; font-size: 12px; }
+.ink-settings-actions { display: flex; align-items: center; gap: 20px; }
+.ink-page textarea, .ink-page input, .ink-page select, .ink-page button { font: inherit; box-sizing: border-box; }
+.ink-page textarea { width: 100%; min-height: 330px; resize: vertical; padding: 18px; border: 1px solid #c8c2b4; background: #faf7ed; color: var(--text-h); border-radius: 3px; font-size: 13px; line-height: 1.9; display: block; }
+.ink-note { font-size: 11px; line-height: 1.7; margin: 12px 0 24px; }
+.ink-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 24px; margin: 24px 0; }
+.ink-controls label { font-size: 11px; display: block; color: var(--text-h); }
+.ink-controls output { float: right; color: var(--text); }
+.ink-controls input, .ink-controls select { display: block; width: 100%; margin-top: 9px; accent-color: #0f8b8d; }
+.ink-controls select, .ink-controls input[type=number], .ink-controls input[type=color] { border: 1px solid #c8c2b4; background: #faf7ed; border-radius: 3px; height: 36px; color: var(--text-h); padding: 5px 8px; }
+.ink-page button { padding: 8px 12px; background: transparent; color: #087577; border: 1px solid #9dbab1; border-radius: 3px; cursor: pointer; font-size: 11px; }
+.ink-page button:hover:not(:disabled) { background: #e2e9dc; }
+.ink-page button:disabled { opacity: .4; cursor: default; }
+.ink-page .ink-link { border: 0; padding: 0; }
+.ink-page :focus-visible { outline: 2px solid #0f8b8d; outline-offset: 3px; }
+.ink-toolbar { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; }
+.ink-toolbar label { font-size: 11px; }
+.ink-toolbar select { padding: 5px; background: #faf7ed; color: var(--text-h); border: 1px solid #c8c2b4; border-radius: 3px; max-width: 65px; }
+.ink-spacer { flex: 1; }
+.ink-export-note { margin-bottom: 10px; }
+#ink-status { font-size: 11px; min-height: 22px; line-height: 1.6; margin: 0 0 12px; overflow-wrap: anywhere; }
+#ink-paper-preview { background: white; aspect-ratio: 612 / 792; box-shadow: 0 4px 24px #08060d12; border: 1px solid #d9d4c9; }
+#ink-paper-preview svg { display: block; width: 100%; height: auto; }
+#ink-paper-preview:has(svg) { aspect-ratio: auto; }
+#ink-retry { margin-bottom: 12px; }
+.ink-footer { margin-top: 50px; padding: 20px 0 10px; font-size: 11px; display: flex; justify-content: space-between; gap: 16px; }
+.ink-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media(max-width: 760px) { .ink-page { padding: 20px 16px; } .ink-workspace { grid-template-columns: 1fr; gap: 24px; } .ink-header { margin: 36px 0; } .ink-page textarea { min-height: 260px; } .ink-footer { flex-direction: column; } }

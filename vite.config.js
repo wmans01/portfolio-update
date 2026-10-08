@@ -22,6 +22,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        handwriting: resolve(__dirname, 'handwriting/index.html'),
         dpm: resolve(__dirname, 'dpm/index.html'),
         ltp: resolve(__dirname, 'ltp/index.html'),
         projects: resolve(__dirname, 'projects/index.html'),

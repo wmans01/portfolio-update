@@ -10,6 +10,8 @@ if (path === '/ltp') {
   window.location.replace(`/ltp/${window.location.search}${window.location.hash}`)
 } else if (path === '/dpm') {
   renderDoublePendulumPage(root)
+} else if (path === '/handwriting') {
+  import('./handwriting/page.js').then(({ renderHandwritingPage }) => renderHandwritingPage(root))
 } else if (path === '/projects') {
   renderProjectsPage(root)
 } else {

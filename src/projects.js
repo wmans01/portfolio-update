@@ -67,6 +67,11 @@ const selectWork = [
 
 const otherProjects = [
   {
+    title: 'Ink Study',
+    description: 'A Markdown notebook that turns your words into my handwriting, with image and PDF exports. Note: This proof-of-concept was entirely vibe-coded.',
+    link: { url: '/handwriting', text: 'try Ink Study' },
+  },
+  {
     title: 'DPM Simulation',
     description:
       'A numerical exploration into double pendulums and chaotic dynamics using RK4 integration for an AP Physics C final project.',
