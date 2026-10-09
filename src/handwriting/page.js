@@ -1,5 +1,6 @@
 import './style.css'
 import { pageSvg, pdfBytes } from './layout.js'
+import { DEFAULT_NATURALNESS } from './natural.js'
 
 export function renderHandwritingPage(root) {
   document.title = 'Ink Study · Jeremy Wang'
@@ -11,17 +12,20 @@ export function renderHandwritingPage(root) {
           <label class="ink-sr" for="ink-text">Markdown text</label>
           <textarea id="ink-text" spellcheck="false" maxlength="12000" aria-describedby="ink-help"></textarea>
           <div class="ink-editor-meta"><p id="ink-help" class="ink-note">Headings (#), lists (- or 1.), **bold**, and *italic*.</p><span id="ink-count"></span></div>
+          <label class="ink-naturalness" for="ink-naturalness">Naturalness <output id="naturalness-value">${DEFAULT_NATURALNESS}</output><input id="ink-naturalness" type="range" min="0" max="1" step="0.05" value="${DEFAULT_NATURALNESS}"></label>
           <details class="ink-settings">
           <summary>Other settings</summary>
           <div class="ink-controls">
             <label>Size <output id="size-value">14</output><input id="ink-size" type="range" min="8" max="24" step="1" value="14"></label>
-            <label>Variation <output id="variation-value">0.7</output><input id="ink-variation" type="range" min="0" max="1.5" step="0.1" value="0.7"></label>
+            <label>Shape variation <output id="variation-value">0.7</output><input id="ink-variation" type="range" min="0" max="1.5" step="0.1" value="0.7"></label>
             <label>Line spacing <output id="spacing-value">1.0</output><input id="ink-spacing" type="range" min="0.8" max="1.6" step="0.1" value="1"></label>
             <label>Paper<select id="ink-paper"><option value="letter">US Letter</option><option value="a4">A4</option></select></label>
             <label>Ink color<input id="ink-color" type="color" value="#182235"></label>
             <label>Seed<input id="ink-seed" type="number" min="0" max="4294967295" step="1" value="31415"></label>
+            <label class="ink-checkbox"><input id="ink-pressure" type="checkbox" checked>Stroke pressure</label>
+            <label class="ink-checkbox"><input id="ink-normalize" type="checkbox" checked>Normalize typography</label>
           </div>
-          <div class="ink-settings-actions"><button id="ink-shuffle" type="button">Try another variation ↻</button><button id="ink-reset" type="button" class="ink-link">reset style</button></div>
+          <div class="ink-settings-actions"><button id="ink-shuffle" type="button">Reshuffle ↻</button><button id="ink-reset" type="button" class="ink-link">reset style</button></div>
           </details>
         </section>
         <section class="ink-preview" aria-label="Handwriting preview">
@@ -70,17 +74,20 @@ export function renderHandwritingPage(root) {
     $('retry').hidden = true; $('pages').textContent = ''
     status.textContent = 'Preparing your handwriting…'
     $('count').textContent = `${editor.value.length.toLocaleString()} / 12,000`
-    for (const key of ['size', 'variation', 'spacing']) root.querySelector(`#${key}-value`).value = $(key).value
+    for (const key of ['size', 'variation', 'spacing', 'naturalness']) root.querySelector(`#${key}-value`).value = $(key).value
     timer = setTimeout(() => {
       if (!$('seed').validity.valid || !$('seed').value) { status.textContent = 'Enter a whole-number seed from 0 to 4294967295.'; preview.setAttribute('aria-busy', 'false'); return }
-      worker.postMessage({ id: request, text: editor.value, options: { size: +$('size').value, variation: +$('variation').value, spacing: +$('spacing').value, seed: +$('seed').value, paper: $('paper').value, ink: $('color').value } })
+      worker.postMessage({ id: request, text: editor.value, options: { pressure: $('pressure').checked, normalizeTypography: $('normalize').checked, naturalness: +$('naturalness').value, size: +$('size').value, variation: +$('variation').value, spacing: +$('spacing').value, seed: +$('seed').value, paper: $('paper').value, ink: $('color').value } })
     }, 300)
   }
   editor.addEventListener('input', schedule)
+  $('naturalness').addEventListener('input', schedule)
   root.querySelectorAll('.ink-controls input, .ink-controls select').forEach(el => el.addEventListener('input', schedule))
   $('shuffle').onclick = () => { $('seed').value = crypto.getRandomValues(new Uint32Array(1))[0]; schedule() }
   $('reset').onclick = () => {
-    for (const [key, value] of Object.entries({ size: 14, variation: .7, spacing: 1, paper: 'letter', color: '#182235', seed: 31415 })) $(key).value = value
+    $('normalize').checked = true
+    $('pressure').checked = true
+    for (const [key, value] of Object.entries({ naturalness: DEFAULT_NATURALNESS, size: 14, variation: .7, spacing: 1, paper: 'letter', color: '#182235', seed: 31415 })) $(key).value = value
     schedule()
   }
   $('retry').onclick = () => { startWorker(); schedule() }

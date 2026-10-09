@@ -1,0 +1,13 @@
+{
+  "source": "https://www.eapoe.org/works/poems/ravenf.htm",
+  "text": "# The Raven\n\nOnce upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore,\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n“’Tis some visiter,” I muttered, “tapping at my chamber door —\nOnly this, and nothing more.”\n\nAh, distinctly I remember it was in the bleak December,\nAnd each separate dying ember wrought its ghost upon the floor.\nEagerly I wished the morrow; — vainly I had tried to borrow\nFrom my books surcease of sorrow — sorrow for the lost Lenore —\nFor the rare and radiant maiden whom the angels name Lenore —\nNameless here for evermore.\n\nAnd the silken sad uncertain rustling of each purple curtain\nThrilled me — filled me with fantastic terrors never felt before;\nSo that now, to still the beating of my heart, I stood repeating\n“‘Tis some visiter entreating entrance at my chamber door —\nSome late visiter entreating entrance at my chamber door; —\nThis it is, and nothing more.”\n\nPresently my soul grew stronger; hesitating then no longer,\n“Sir,” said I, “or Madam, truly your forgiveness I implore;\nBut the fact is I was napping, and so gently you came rapping,\nAnd so faintly you came tapping, tapping at my chamber door,\nThat I scarce was sure I heard you” — here I opened wide the door; —\nDarkness there, and nothing more.\n\nDeep into that darkness peering, long I stood there wondering, fearing,\nDoubting, dreaming dreams no mortal ever dared to dream before;\nBut the silence was unbroken, and the darkness gave no token,\nAnd the only word there spoken was the whispered word, “Lenore!”\nThis I whispered, and an echo murmured back the word, “Lenore!”\nMerely this and nothing more.\n\nThen into the chamber turning, all my soul within me burning,\nSoon I heard again a tapping somewhat louder than before.\n“Surely,” said I, “surely that is something at my window lattice;\nLet me see, then, what thereat is, and this mystery explore —\nLet my heart be still a moment and this mystery explore; —\n’Tis the wind and nothing more!”\n",
+  "options": {
+    "size": 12,
+    "naturalness": 0.55,
+    "seed": 31415,
+    "variation": 0.7,
+    "spacing": 1,
+    "paper": "letter"
+  },
+  "pages": 6
+}

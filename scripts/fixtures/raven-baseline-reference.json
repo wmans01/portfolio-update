@@ -1,0 +1,13 @@
+{
+  "source": "https://www.eapoe.org/works/poems/ravenf.htm",
+  "options": {
+    "size": 12,
+    "naturalness": 0.55,
+    "seed": 31415,
+    "variation": 0.7,
+    "spacing": 1,
+    "paper": "letter"
+  },
+  "sourceGlyphHash": "1e52329cad0424ceaa52c86a79a3c8088c505ff80ccd8982d7cdfa756a598c1f",
+  "bottomResidualRms": 0.1340413435983013
+}

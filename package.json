@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm run index:music && vite",
     "build": "npm run index:music && vite build && node scripts/copy-player-assets.mjs",
+    "test:handwriting": "node scripts/test-handwriting.mjs && node scripts/test-handwriting-layout.mjs && node scripts/test-handwriting-typography.mjs && node scripts/test-handwriting-raven.mjs && node scripts/test-handwriting-pressure.mjs",
     "index:music": "node ltp/scripts/index-music.mjs",
     "preview": "vite preview"
   },
