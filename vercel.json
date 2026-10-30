@@ -8,7 +8,7 @@
           "value": "blog.jeremp0.me"
         }
       ],
-      "destination": "https://jeremp0-thinkcentre-m920q.tail628019.ts.net:8443/:path*"
+      "destination": "https://jeremp0-thinkcentre-m920q.tail628019.ts.net/:path*"
     },
     {
       "source": "/(.*)",
