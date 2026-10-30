@@ -25,10 +25,11 @@ function renderHome(root) {
   <h2>Love for all things hardware</h2>
 </section>
 <h5>
+  Blog: <a href="https://blog.jeremp0.me">blog</a>
   Github: <a href="https://github.com/wmans01">wmans01</a>
   LinkedIn: <a href="https://www.linkedin.com/in/jeremy-wang-868a70406/">Jeremy Wang</a>
   Instagram: <a href="https://www.instagram.com/jeremp0/">@jeremp0</a>
-  Updated: 6/20/2026
+  Updated: 10/30/2026
 </h5>
 <div id="projects-trigger">
   <div id="projects-hitarea">
