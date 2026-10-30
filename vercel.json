@@ -1,14 +1,14 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/:match*",
       "has": [
         {
           "type": "host",
           "value": "blog.jeremp0.me"
         }
       ],
-      "destination": "https://jeremp0-thinkcentre-m920q.tail628019.ts.net/:path*"
+      "destination": "https://jeremp0-thinkcentre-m920q.tail628019.ts.net/:match*"
     },
     {
       "source": "/(.*)",
