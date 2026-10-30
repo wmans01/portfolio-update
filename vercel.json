@@ -1,0 +1,18 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "blog.jeremp0.me"
+        }
+      ],
+      "destination": "https://jeremp0-thinkcentre-m920q.tail628019.ts.net:8443/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
