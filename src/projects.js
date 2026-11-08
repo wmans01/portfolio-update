@@ -1,3 +1,4 @@
+import './pcb-back.js'
 import homeImg from './assets/home.png'
 
 const currentWork = [
@@ -76,11 +77,6 @@ const otherProjects = [
     description:
       'A numerical exploration into double pendulums and chaotic dynamics using RK4 integration for an AP Physics C final project.',
     link: { url: '/dpm', text: 'jeremp0.me/dpm' },
-  },
-  {
-    title: 'Illini Redstone Computing',
-    description:
-      'Building fully functional computer architectures, ALUs, memory registers, and digital logic devices inside Minecraft.',
   },
   {
     title: 'Beaver Works Summer Institute RACECAR',
@@ -186,9 +182,9 @@ export const renderProjectsPage = root => {
     <h1>Projects</h1>
     <a href="/" class="mobile-home-link">← home</a>
     <div class="back-home-wrap">
-      <a href="/" id="home-trigger" title="Back to home">
-        <img src="${homeImg}" alt="Home" draggable="false" />
-        <span class="home-label">home</span>
+      <a href="/pcbs/" id="home-trigger" data-pcb-link title="PCBs" aria-label="PCBs">
+        <img src="${homeImg}" alt="" draggable="false" />
+        <span class="home-label">pcbs</span>
       </a>
     </div>
   </section>
@@ -337,6 +333,7 @@ export const renderProjectsPage = root => {
   `
 
   initLightbox()
+  initPcbTransition()
 }
 
 function initLightbox() {
@@ -395,6 +392,77 @@ function initLightbox() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && lightbox.classList.contains('active')) {
       closeLightbox()
+    }
+  })
+}
+
+
+function initPcbTransition() {
+  const link = document.querySelector('[data-pcb-link]')
+  let overlay
+  let entered = false
+  const prepareGallery = async () => {
+    const response = await fetch(link.href)
+    if (!response.ok) throw new Error('Gallery unavailable')
+    const page = new DOMParser().parseFromString(await response.text(), 'text/html')
+    const stylesheet = page.querySelector('link[rel="stylesheet"]')
+    if (stylesheet) {
+      const href = new URL(stylesheet.getAttribute('href'), link.href).href
+      if (![...document.styleSheets].some(sheet => sheet.href === href)) {
+        await new Promise((resolve, reject) => {
+          const css = document.createElement('link')
+          css.rel = 'stylesheet'
+          css.href = href
+          css.onload = resolve
+          css.onerror = reject
+          document.head.append(css)
+        })
+      }
+    }
+    return page
+  }
+  link.addEventListener('click', async event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+    event.preventDefault()
+    if (overlay) return
+    const destination = link.href
+    // Prepare the next page without navigating away from the animated document.
+    const prepared = prepareGallery().then(page => ({ page }), error => ({ error }))
+    overlay = document.createElement('div')
+    overlay.className = 'pcb-transition'
+    overlay.setAttribute('aria-hidden', 'true')
+    document.body.append(overlay)
+    const radius = Math.ceil(Math.hypot(innerWidth, innerHeight)) + 2
+    await overlay.animate([
+      { clipPath: 'circle(0px at 0% 100%)' },
+      { clipPath: `circle(${radius}px at 0% 100%)` },
+    ], { duration: 950, easing: 'cubic-bezier(.22, .61, .36, 1)', fill: 'forwards' }).finished
+    const { page } = await prepared
+    if (!page) {
+      // A failed preload still navigates only after the screen is fully covered.
+      window.location.assign(destination)
+      return
+    }
+    document.documentElement.classList.add('pcb-gallery')
+    document.title = page.title
+    document.body.replaceChildren(...page.body.children, overlay)
+    history.pushState({ pcbGallery: true }, '', destination)
+    entered = true
+    window.scrollTo(0, 0)
+    document.querySelector('.pcb-collection').focus({ preventScroll: true })
+    await overlay.animate([{ opacity: 1 }, { opacity: 0 }], {
+      duration: 240, fill: 'forwards',
+    }).finished
+    overlay.remove()
+    overlay = undefined
+  })
+  window.addEventListener('popstate', () => {
+    if (entered) window.location.reload()
+  })
+  window.addEventListener('pageshow', event => {
+    if (event.persisted) {
+      overlay?.remove()
+      overlay = undefined
     }
   })
 }

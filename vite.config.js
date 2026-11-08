@@ -26,6 +26,7 @@ export default defineConfig({
         dpm: resolve(__dirname, 'dpm/index.html'),
         ltp: resolve(__dirname, 'ltp/index.html'),
         projects: resolve(__dirname, 'projects/index.html'),
+        pcbs: resolve(__dirname, 'pcbs/index.html'),
       },
     },
   },

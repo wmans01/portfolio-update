@@ -791,3 +791,21 @@ a {
 }
 
 
+
+
+
+
+
+/* PCB page transition */
+.pcb-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: #0b1012;
+  pointer-events: auto;
+  clip-path: circle(0px at 0% 100%);
+}
+@media (max-width: 720px) {
+  #home-trigger[data-pcb-link] { display: inline-block; }
+  #home-trigger[data-pcb-link] img { height: 64px; }
+}

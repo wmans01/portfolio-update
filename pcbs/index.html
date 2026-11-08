@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="pcb-gallery">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1012" />
+    <title>PCBs — Jeremy Wang</title>
+    <link rel="stylesheet" href="/src/pcbs.css" />
+  </head>
+  <body>
+    <a class="pcb-back" href="/projects/" data-pcb-back aria-label="Back to projects">&lt;- back</a>
+    <main class="pcb-collection" tabindex="-1" aria-label="PCB collection, ordered by complexity">
+      <header class="collection-header"><h1>PCBs</h1><span>01 — 03</span></header>
+      <article class="pcb-exhibit" aria-labelledby="bms-title">
+        <iframe src="/pcb-viewer/index.html?board=bms" title="BMS Discharge/Temp sensing ASCII PCB viewer" loading="eager"></iframe>
+        <div class="exhibit-label">
+          <span class="exhibit-number">01</span>
+          <h2 id="bms-title">BMS Discharge/Temp sensing</h2>
+          <p>Battery discharge and temperature sensing for a battery management system.</p>
+          <p class="exhibit-details">Altium<br>418 components / 284 nets</p>
+        </div>
+      </article>
+      <article class="pcb-exhibit" aria-labelledby="keyboard-title">
+        <iframe src="/pcb-viewer/index.html?board=keyboard" title="Mechanical Keyboard ASCII PCB viewer" loading="eager"></iframe>
+        <div class="exhibit-label">
+          <span class="exhibit-number">02</span>
+          <h2 id="keyboard-title">Mechanical Keyboard</h2>
+          <p>A custom mechanical keyboard PCB, with switch routing spread across a compact layout.</p>
+          <p class="exhibit-details">KiCad<br>156 components / 115 nets</p>
+        </div>
+      </article>
+      <article class="pcb-exhibit" aria-labelledby="voltage-title">
+        <iframe src="/pcb-viewer/index.html?board=voltage" title="Voltage Indicator ASCII PCB viewer" loading="eager"></iframe>
+        <div class="exhibit-label">
+          <span class="exhibit-number">03</span>
+          <h2 id="voltage-title">Voltage Indicator</h2>
+          <p>A compact circular board for voltage indication.</p>
+          <p class="exhibit-details">Altium<br>41 components / 38 nets</p>
+        </div>
+      </article>
+    </main>
+    <script type="module" src="/src/pcb-back.js"></script>
+  </body>
+</html>
